@@ -1,15 +1,16 @@
 # Firmware
 
-This directory will contain the operating systems available for diceFriend.
+This directory is the catalogue of operating systems available for diceFriend.
 
-Each OS should have its own directory containing:
+Only compiled, installation-ready firmware is published. Source code and development projects are not included in this repository.
 
-- source code,
-- `platformio.ini`,
-- an OS-specific README and control reference,
-- version information,
-- any required assets or supporting files.
+Each OS may have its own directory containing:
 
-Tested compiled firmware intended for users should be published through **GitHub Releases** rather than treated as an unversioned file dump.
+- a user manual and control reference,
+- version and compatibility information,
+- installation notes,
+- links to its tested HEX downloads.
+
+Official versioned HEX files will be distributed through **GitHub Releases**.
 
 The initial firmware catalogue is being prepared.

@@ -6,13 +6,13 @@ Its character can be completely changed by installing a different operating syst
 
 ## Repository status
 
-This repository is currently being organized. Firmware sources, compiled releases, installation instructions, and individual OS manuals will be added progressively.
+This repository is currently being organized. Tested compiled firmware, installation instructions, and individual OS manuals will be added progressively.
 
 ## Contents
 
-- `firmware/` — diceFriend operating systems and firmware notes
+- `firmware/` — compiled diceFriend operating systems and firmware notes
 - `docs/` — setup guides, firmware installation, MIDI documentation, and OS manuals
-- GitHub Releases — tested firmware builds for installation
+- GitHub Releases — versioned, tested firmware downloads
 
 ## Official links
 

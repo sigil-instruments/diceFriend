@@ -1,14 +1,6 @@
 # Documentation
 
-This directory is the documentation hub for diceFriend.
+English manuals for all 15 diceFriend operating systems are available in Markdown and PDF.
 
-Planned sections:
-
-- getting started,
-- firmware installation and recovery,
-- individual OS manuals and control maps,
-- MIDI implementation,
-- troubleshooting,
-- hardware and safety notes.
-
-Documentation will be added alongside the corresponding tested firmware.
+- [Browse OS manuals and download PDFs](OS_manuals/README_EN.md)
+- [Browse firmware and download HEX files](../firmware/README.md)

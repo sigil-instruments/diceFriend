@@ -4,15 +4,18 @@
 
 Its character can be completely changed by installing a different operating system. Each OS turns the same hardware into a different instrument: melodic, generative, percussive, noisy, or somewhere between those categories.
 
-## Repository status
+## Downloads
 
-This repository is currently being organized. Tested compiled firmware, installation instructions, and individual OS manuals will be added progressively.
+This repository contains compiled firmware for 15 diceFriend operating systems and their English manuals in Markdown and PDF.
+
+- [Firmware catalogue and HEX downloads](firmware/README.md)
+- [English OS manuals and PDF downloads](docs/OS_manuals/README_EN.md)
 
 ## Contents
 
-- `firmware/` — compiled diceFriend operating systems and firmware notes
-- `docs/` — setup guides, firmware installation, MIDI documentation, and OS manuals
-- GitHub Releases — versioned, tested firmware downloads
+- `firmware/` — ready-to-install HEX files for Teensy 4.0
+- `docs/OS_manuals/` — English manuals in Markdown
+- `docs/OS_manuals/pdf/EN/` — English manuals in PDF
 
 ## Official links
 

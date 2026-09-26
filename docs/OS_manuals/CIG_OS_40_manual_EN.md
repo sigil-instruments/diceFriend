@@ -1,4 +1,4 @@
-# CIG_OS — manual
+# CIG_OS - LEFT manual
 
 Version: 2026-09-18. Without SHIFT, P1 controls internal clock and post-fold; with SHIFT, it controls oscillator A rate. Hold DICE for about 1.8 seconds to change mode. TS opens the shared synthesis core.
 

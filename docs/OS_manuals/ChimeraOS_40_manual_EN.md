@@ -1,10 +1,10 @@
-# Chimera_OS — manual
+# Chimera_OS - LEFT manual
 
-Version: 2026-09-18. Hardware: diceFriend, Teensy 4.0.
+Version: 2026-09-18. Hardware: diceFriend LEFT, Teensy 4.0.
 
 ## Character and modes
 
-Chimera_OS combines rungler-style registers, FM/PM, pulsars, feedback memory and a low-pass-gate model. AS runs one cybernetic organism and lets separate random dividers select one event every 2–5 source steps. TS runs three independent synthesis instances; pads and MIDI notes in TS do not use the AS 2–5 divider.
+Chimera_OS combines rungler-style registers, FM/PM, pulsars, feedback memory and a low-pass-gate model. AS runs one cybernetic organism and lets separate random dividers select one event every 2-5 source steps. TS runs three independent synthesis instances; pads and MIDI notes in TS do not use the AS 2-5 divider.
 
 ## Panel and DICE
 
@@ -17,7 +17,7 @@ Hold unshifted DICE for 3 seconds to change AS/TS. Short DICE randomizes all 12 
 | P3 | Ecology: oscillator → rungler → pulsar | Mutation |
 | P4 | Fold | LPG decay time |
 | P5 | Aperture: pulse width and LPG brightness | Homeostasis |
-| P6 | Density: base clock, about 0.328–590.49 Hz | Space |
+| P6 | Density: base clock, about 0.328-590.49 Hz | Space |
 
 | Knob | TS normal layer | TS SHIFT layer |
 |---|---|---|
@@ -32,13 +32,13 @@ In AS, T1 is Freeze, T2 Invert and T3 Rupture; a new touch also strikes the orga
 
 ## CV and USB MIDI
 
-CV1 uses rising edges with a 1 ms filter. CV2 has edge detection plus a smoothed continuous path that shifts pitch and sends CC74. AS gives CV1 and CV2 independent 2–5 dividers; TS sends selected triggers directly to successive voices. CV is not a calibrated 1 V/oct input.
+CV1 uses rising edges with a 1 ms filter. CV2 has edge detection plus a smoothed continuous path that shifts pitch and sends CC74. AS gives CV1 and CV2 independent 2-5 dividers; TS sends selected triggers directly to successive voices. CV is not a calibrated 1 V/oct input.
 
-MIDI notes and CC use input channel 1. In AS, the 2–5 divider selects Note On events; a skipped note does not change pitch. In TS, notes rotate across three voices and Note Off or velocity 0 releases the assignment. CC20–31 control the active mode's 12 panel values. CC120 stops sound/transport; CC123 releases notes and resets state.
+MIDI notes and CC use input channel 1. In AS, the 2-5 divider selects Note On events; a skipped note does not change pitch. In TS, notes rotate across three voices and Note Off or velocity 0 releases the assignment. CC20-31 control the active mode's 12 panel values. CC120 stops sound/transport; CC123 releases notes and resets state.
 
-Local MIDI output on channel 1 sends at most 20 notes per second, with Note Off after 35 ms. CV2 sends CC74 at up to 40 messages per second with a 2/127 change threshold. Physical panel changes and DICE send CC20–31. Received messages are not sent as direct USB Thru.
+Local MIDI output on channel 1 sends at most 20 notes per second, with Note Off after 35 ms. CV2 sends CC74 at up to 40 messages per second with a 2/127 change threshold. Physical panel changes and DICE send CC20-31. Received messages are not sent as direct USB Thru.
 
-MIDI Clock uses 24 PPQN. AS applies the 2–5 event divider; TS triggers on every complete step. A note stream suppresses extra clock strikes. Clock priority is MIDI Clock → CV1 → CV2 → internal P6. MIDI expires after about 1.8 seconds; CV remains active for at least 1.8 seconds or roughly three measured periods. Start resets, Continue resumes and Stop stops. Receiving Clock latches local Clock Out off until a local short DICE.
+MIDI Clock uses 24 PPQN. AS applies the 2-5 event divider; TS triggers on every complete step. A note stream suppresses extra clock strikes. Clock priority is MIDI Clock → CV1 → CV2 → internal P6. MIDI expires after about 1.8 seconds; CV remains active for at least 1.8 seconds or roughly three measured periods. Start resets, Continue resumes and Stop stops. Receiving Clock latches local Clock Out off until a local short DICE.
 
 ## LEDs and first patch
 

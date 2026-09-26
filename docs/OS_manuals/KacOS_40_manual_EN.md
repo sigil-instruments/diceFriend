@@ -1,4 +1,4 @@
-# Kac_OS — manual
+# Kac_OS - LEFT manual
 
 Version: 2026-09-18. A short DICE randomizes AS while preserving tempo, or selects the next TS engine. TS MIDI allocates up to three voices and responds to Note Off; physically held pads have priority.
 

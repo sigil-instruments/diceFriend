@@ -1,6 +1,6 @@
-# GenTex_OS — manual
+# GenTex_OS - LEFT manual
 
-Version: 2026-09-18. TS uses one shared gated texture engine. The pads blend pitch and add fold, delay and filter gestures. P1–P3 influence texture pitch, P4 feedback, P5 texture and P6 the delay/resonance relationship. MIDI Note On opens the shared gate and changes timbre and energy; Note Off closes the gate.
+Version: 2026-09-18. TS uses one shared gated texture engine. The pads blend pitch and add fold, delay and filter gestures. P1-P3 influence texture pitch, P4 feedback, P5 texture and P6 the delay/resonance relationship. MIDI Note On opens the shared gate and changes timbre and energy; Note Off closes the gate.
 
 GenTexOS is a nonlinear texture generator for diceFriend. It is built for feedback, folding, filtering, micro-delay, smearing, bit reduction, and self-moving stereo textures.
 

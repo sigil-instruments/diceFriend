@@ -1,4 +1,4 @@
-# Mult_OS — manual
+# Mult_OS - LEFT manual
 
 Version: 2026-09-18. Mult_OS has AS/Walk and TS modes. Hold DICE for about 3 seconds to change mode. A short unshifted DICE mutates AS or selects the next TS engine. SHIFT + DICE changes the mutation depth and mutates the scene; the four depths are Safe, Musical, Chaos and Wild.
 
@@ -26,7 +26,7 @@ The three TS pads open three voices. In AS, individual pads accent PM, feedback 
 
 ## CV and MIDI
 
-CV1 is a trigger/clock input. CV2 works as continuous modulation until pulses are detected, then participates in clock/trigger handling. MIDI Note On takes pitch and triggers the voice group when CV does not own timing; held input notes are tracked and released. Start resets the walk step, while Stop clears incoming notes rather than persistently stopping AS. CC20–25 control the normal layer, CC26–31 the shifted layer, and CC74 controls the CV2 value. Local gates generate Note On/Off, panel movement generates CC, and local/CV timing generates Clock.
+CV1 is a trigger/clock input. CV2 works as continuous modulation until pulses are detected, then participates in clock/trigger handling. MIDI Note On takes pitch and triggers the voice group when CV does not own timing; held input notes are tracked and released. Start resets the walk step, while Stop clears incoming notes rather than persistently stopping AS. CC20-25 control the normal layer, CC26-31 the shifted layer, and CC74 controls the CV2 value. Local gates generate Note On/Off, panel movement generates CC, and local/CV timing generates Clock.
 
 MIDI Clock uses 24 PPQN. CV has priority over MIDI, and an external timing source remains active for approximately 30 seconds. Start resets the walk step; Stop clears incoming notes.
 

@@ -1,4 +1,4 @@
-# 4S_OS — manual
+# 4S_OS - LEFT manual
 
 Version: 2026-09-18. Without SHIFT, P1 controls boundaries and internal clock; with SHIFT, it controls slope A rate. Hold DICE for about 1.8 seconds to change mode. TS opens and reshapes the shared four-slope network.
 
@@ -66,11 +66,11 @@ Only the beginning of each Rate control is predominantly sub-audio. Most of the 
 
 SHIFT layer:
 
-- **Knob 1:** Boundaries — the basic space available to the four slopes.
-- **Knob 2:** Drift — slow pitch and trajectory movement.
-- **Knob 3:** Shape — movement from smoother slopes toward driven and folded forms.
-- **Knob 4:** Spectrum — brightness and output smoothing.
-- **Knob 5:** Feedback — recirculation and cross-channel instability.
+- **Knob 1:** Boundaries - the basic space available to the four slopes.
+- **Knob 2:** Drift - slow pitch and trajectory movement.
+- **Knob 3:** Shape - movement from smoother slopes toward driven and folded forms.
+- **Knob 4:** Spectrum - brightness and output smoothing.
+- **Knob 5:** Feedback - recirculation and cross-channel instability.
 - **Knob 6:** Stereo spread.
 
 ### Run Touch Pad Behavior

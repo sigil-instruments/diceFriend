@@ -1,4 +1,4 @@
-# Kac_OS Bass — manual
+# Kac_OS Bass - LEFT manual
 
 Version: 2026-09-18. This edition uses the Kac_OS controls and synthesis architecture, transposes audio two octaves down (`×0.25`) and protects the lowest range. TS MIDI uses the same bass transposition, allocates up to three voices and responds to Note Off.
 

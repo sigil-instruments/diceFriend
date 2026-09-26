@@ -1,4 +1,4 @@
-# Run_OS — manual
+# Run_OS - LEFT manual
 
 Version: 2026-09-18. Incoming Note Off releases the MIDI pitch override. External timing remains active for about 30 seconds after the last event.
 

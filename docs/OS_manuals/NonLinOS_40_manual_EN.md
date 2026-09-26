@@ -1,4 +1,4 @@
-# NonLin_OS — manual
+# NonLin_OS - LEFT manual
 
 Version: 2026-09-18. SHIFT + short DICE in AS changes Lorenz/Dadras; unshifted short DICE creates a new scene and scale. CC74 is available for TS modulation. Note Off releases the MIDI pitch override.
 

@@ -1,6 +1,6 @@
-# DriftScape_OS — manual
+# DriftScape_OS - LEFT manual
 
-Version: 2026-09-18. TS uses three dedicated resonators. P1–P3 set their pitches and P4–P6 set their individual decays. With SHIFT, P1 controls Q, P2 stereo position, P3 brightness, P4 resonator character and P6 gentle fold. SHIFT P5 is reserved.
+Version: 2026-09-18. TS uses three dedicated resonators. P1-P3 set their pitches and P4-P6 set their individual decays. With SHIFT, P1 controls Q, P2 stereo position, P3 brightness, P4 resonator character and P6 gentle fold. SHIFT P5 is reserved.
 
 DriftScapeOS is the ambient, resonant landscape operating system for diceFriend. It combines a slowly wandering low body with two independent layers of wind-chime melodies, long decays, tonal reflections, stereo smear, feedback, and reverb. Instead of holding one fixed drone, the foundation moves gradually through a shared modal scale while old and new notes overlap like harmonic tides.
 
@@ -50,27 +50,27 @@ The two **chime layers** follow separate melodic algorithms. The first plays rec
 
 Normal layer:
 
-- **Knob 1 — Melody Balance:** Crossfades between melodic chime layer A and layer B. The center mixes both layers.
-- **Knob 2 — Mutation:** Changes melodic variation and repetition, and also controls how actively the low body walks through the scale.
-- **Knob 3 — Body Decay:** Sets the decay and overlap time of the wandering low foundation.
-- **Knob 4 — Reverb / Space:** Expands the tonal reverb, reflections, and shoegaze-like wall around the sound.
-- **Knob 5 — Chime Decay:** Sets how long the bells and resonant tubes continue ringing.
-- **Knob 6 — Chime Timbre:** Moves the chimes from soft fundamentals toward brighter harmonic partials and also increases controlled feedback.
+- **Knob 1 - Melody Balance:** Crossfades between melodic chime layer A and layer B. The center mixes both layers.
+- **Knob 2 - Mutation:** Changes melodic variation and repetition, and also controls how actively the low body walks through the scale.
+- **Knob 3 - Body Decay:** Sets the decay and overlap time of the wandering low foundation.
+- **Knob 4 - Reverb / Space:** Expands the tonal reverb, reflections, and shoegaze-like wall around the sound.
+- **Knob 5 - Chime Decay:** Sets how long the bells and resonant tubes continue ringing.
+- **Knob 6 - Chime Timbre:** Moves the chimes from soft fundamentals toward brighter harmonic partials and also increases controlled feedback.
 
 SHIFT layer:
 
-- **Knob 1 — MIDI Out Transpose / Root:** Transposes generated MIDI output by approximately plus or minus two octaves. Without incoming MIDI it also selects the standalone tonal center.
-- **Knob 2 — Drift:** Adds slow pitch drift and organic instability.
-- **Knob 3 — Stereo Spread:** Widens the body, chimes, reflections, and smear field.
-- **Knob 4 — Tempo / Motion:** Controls the shared melodic tempo and MIDI Clock output, approximately 20-180 BPM.
-- **Knob 5 — Chime Register:** Moves the melodic resonators across a wider low-to-high register.
-- **Knob 6 — Body / Chimes:** Crossfades between the low harmonic body and the two chime layers while also increasing output drive.
+- **Knob 1 - MIDI Out Transpose / Root:** Transposes generated MIDI output by approximately plus or minus two octaves. Without incoming MIDI it also selects the standalone tonal center.
+- **Knob 2 - Drift:** Adds slow pitch drift and organic instability.
+- **Knob 3 - Stereo Spread:** Widens the body, chimes, reflections, and smear field.
+- **Knob 4 - Tempo / Motion:** Controls the shared melodic tempo and MIDI Clock output, approximately 20-180 BPM.
+- **Knob 5 - Chime Register:** Moves the melodic resonators across a wider low-to-high register.
+- **Knob 6 - Body / Chimes:** Crossfades between the low harmonic body and the two chime layers while also increasing output drive.
 
 ### AS Touch Pad Behavior
 
-- **T1 — Freeze:** Holds the current reflection buffer and pushes the sound toward a denser suspended bloom.
-- **T2 — Dissolve:** Deepens stereo smear, delay movement, filtering, and digital erosion.
-- **T3 — Bloom:** Adds a strong resonant/feedback surge, brighter folding, and a more dramatic spatial expansion.
+- **T1 - Freeze:** Holds the current reflection buffer and pushes the sound toward a denser suspended bloom.
+- **T2 - Dissolve:** Deepens stereo smear, delay movement, filtering, and digital erosion.
+- **T3 - Bloom:** Adds a strong resonant/feedback surge, brighter folding, and a more dramatic spatial expansion.
 - Pad combinations combine these gestures and can turn a stable landscape into a temporarily frozen or heavily blurred harmonic cloud.
 
 ## TS Mode: Touch Landscape

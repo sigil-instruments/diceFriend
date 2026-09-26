@@ -1,4 +1,4 @@
-# Blip_OS — manual
+# Blip_OS - LEFT manual
 
 Version: 2026-09-18. Without SHIFT, P1 controls internal clock speed and rungler influence; with SHIFT, it controls oscillator A rate. Hold DICE for about 1.8 seconds to change Run/Touch mode. TS opens the shared synthesis core.
 

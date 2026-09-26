@@ -1,6 +1,6 @@
-# Modal_OS — manual
+# Modal_OS - LEFT manual
 
-Version: 2026-09-18. In TS, a short unshifted DICE selects STRINGS, BARS, CAVE or POLY. AS MIDI CC mapping is CC20=left pitch, CC21=speed, CC22=right pitch, CC23=feedback, CC24=chaos, CC25=decay and CC26–31=SHIFT P1–P6. TS uses CC52–57 for its normal layer and CC58–63 for its shifted layer.
+Version: 2026-09-18. In TS, a short unshifted DICE selects STRINGS, BARS, CAVE or POLY. AS MIDI CC mapping is CC20=left pitch, CC21=speed, CC22=right pitch, CC23=feedback, CC24=chaos, CC25=decay and CC26-31=SHIFT P1-P6. TS uses CC52-57 for its normal layer and CC58-63 for its shifted layer.
 
 ModalOS is a resonator-based operating system for diceFriend. It turns triggers, touch, feedback, and chaotic motion into ringing objects: strings, bars, caves, and clustered modal bodies.
 

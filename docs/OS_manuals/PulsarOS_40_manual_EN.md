@@ -1,4 +1,4 @@
-# Pulsar_OS — manual
+# Pulsar_OS - LEFT manual
 
 Version: 2026-09-18. A short DICE in TS randomizes the complete scene and chooses a random TS engine. TS MIDI allocates up to three voices and responds to Note Off.
 

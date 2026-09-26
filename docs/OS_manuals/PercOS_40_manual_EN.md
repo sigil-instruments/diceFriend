@@ -1,6 +1,6 @@
-# PERC_OS — manual
+# PERC_OS - LEFT manual
 
-Version: 2026-09-18. Hardware: diceFriend, Teensy 4.0.
+Version: 2026-09-18. Hardware: diceFriend LEFT, Teensy 4.0.
 
 ## Character and operating model
 
@@ -18,9 +18,9 @@ PERC_OS is a touch percussion looper with kick, snare and hi-hat voices, a 32-st
 
 The controls use pickup after a layer change: move a knob away from its stored position to take control.
 
-| Knob | NS — sound layer | SHIFT — global layer |
+| Knob | NS - sound layer | SHIFT - global layer |
 |---|---|---|
-| P1 | Kick character | Tempo, 20–240 BPM when no external clock owns transport |
+| P1 | Kick character | Tempo, 20-240 BPM when no external clock owns transport |
 | P2 | Snare character | Chaos / mutation amount |
 | P3 | Hi-hat character | Feel: first half quantization, second half swing |
 | P4 | Kick decay | Compression |
@@ -37,11 +37,11 @@ CV1 and CV2 are clock inputs only. One pulse advances one sixteenth note; a puls
 
 MIDI Clock uses 24 PPQN, so every 6 incoming Clock messages advance one sixteenth. Start and Continue arm external timing. Stop clears the MIDI-clock state and allows the internal loop to return; it is not a persistent stop for the looper. CV has priority for about 30 seconds after its last pulse, and MIDI activity also expires after about 30 seconds.
 
-The firmware receives CC20–31. CC20–25 control the global layer, corresponding to physical SHIFT; CC26–31 control the sound layer, corresponding to physical NS. It intentionally ignores MIDI Note On and Note Off. MIDI Out provides Clock and panel CC, but loop hits do not produce MIDI notes.
+The firmware receives CC20-31. CC20-25 control the global layer, corresponding to physical SHIFT; CC26-31 control the sound layer, corresponding to physical NS. It intentionally ignores MIDI Note On and Note Off. MIDI Out provides Clock and panel CC, but loop hits do not produce MIDI notes.
 
 ## LEDs
 
-LED 0–3 show groups of four steps; the second half of the 32-step loop is brighter. After an engine change, one LED shows the selected engine for about two seconds. First MIDI-clock lock briefly lights all four LEDs.
+LED 0-3 show groups of four steps; the second half of the 32-step loop is brighter. After an engine change, one LED shows the selected engine for about two seconds. First MIDI-clock lock briefly lights all four LEDs.
 
 ## First patch
 

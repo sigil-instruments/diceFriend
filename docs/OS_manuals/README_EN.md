@@ -1,6 +1,6 @@
 # diceFriend — English OS manuals
 
-Updated 2026-09-18. This folder contains English manuals for all 15 operating systems listed on the diceFriend website.
+Updated 2026-09-26. This folder contains English manuals for all 17 operating systems listed on the diceFriend website.
 
 | OS | Read on GitHub | Download PDF |
 |---|---|---|
@@ -8,9 +8,11 @@ Updated 2026-09-18. This folder contains English manuals for all 15 operating sy
 | Mult_OS | [Markdown](MultOS_40_manual_EN.md) | [PDF](pdf/EN/MultOS_40_manual_EN.pdf) |
 | Modal_OS | [Markdown](ModalOS_40_manual_EN.md) | [PDF](pdf/EN/ModalOS_40_manual_EN.pdf) |
 | NonLin_OS | [Markdown](NonLinOS_40_manual_EN.md) | [PDF](pdf/EN/NonLinOS_40_manual_EN.pdf) |
+| Flux_OS | [Markdown](FluxOS_40_manual_EN.md) | [PDF](pdf/EN/FluxOS_40_manual_EN.pdf) |
 | GenTex_OS | [Markdown](GenTexOS_40_manual_EN.md) | [PDF](pdf/EN/GenTexOS_40_manual_EN.pdf) |
 | Kac_OS | [Markdown](KacOS_40_manual_EN.md) | [PDF](pdf/EN/KacOS_40_manual_EN.pdf) |
 | Kac_OS Bass | [Markdown](KacOS_40_BASS_manual_EN.md) | [PDF](pdf/EN/KacOS_40_BASS_manual_EN.pdf) |
+| RELAB_OS | [Markdown](RELAB_OS_40_manual_EN.md) | [PDF](pdf/EN/RELAB_OS_40_manual_EN.pdf) |
 | Pulsar_OS | [Markdown](PulsarOS_40_manual_EN.md) | [PDF](pdf/EN/PulsarOS_40_manual_EN.pdf) |
 | Blip_OS | [Markdown](BlipOS_40_manual_EN.md) | [PDF](pdf/EN/BlipOS_40_manual_EN.pdf) |
 | DriftScape_OS | [Markdown](DriftScapeOS_40_manual_EN.md) | [PDF](pdf/EN/DriftScapeOS_40_manual_EN.pdf) |

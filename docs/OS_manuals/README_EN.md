@@ -1,6 +1,6 @@
 # diceFriend LEFT - English OS manuals
 
-Updated 2026-10-23. This folder contains English manuals for all 22 operating systems listed on the diceFriend website.
+Updated 2026-10-28. This folder contains English manuals for all 22 operating systems listed on the diceFriend website.
 
 The list follows publication order, from oldest to newest.
 
@@ -30,3 +30,5 @@ The list follows publication order, from oldest to newest.
 | Arc_OS | [Markdown](ArcOS_40_manual_EN.md) | [PDF](pdf/EN/ArcOS_40_manual_EN.pdf) |
 
 Each PDF is generated from the matching English Markdown manual.
+
+One-page printable guides are available in the [Quick Start cards directory](Quick_Start_Cards_A4_EN/README.md).

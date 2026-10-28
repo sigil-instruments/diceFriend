@@ -1,0 +1,26 @@
+# English Quick Start cards
+
+One-page A4 guides for the 22 diceFriend operating systems published on the official website.
+
+- [Modal_OS](ModalOS_Quick_Start_A4_EN.pdf)
+- [Run_OS](RunOS_Quick_Start_A4_EN.pdf)
+- [NonLin_OS](NonLinOS_Quick_Start_A4_EN.pdf)
+- [Mult_OS](MultOS_Quick_Start_A4_EN.pdf)
+- [GenTex_OS](GenTexOS_Quick_Start_A4_EN.pdf)
+- [Kac_OS](KacOS_Quick_Start_A4_EN.pdf)
+- [Pulsar_OS](PulsarOS_Quick_Start_A4_EN.pdf)
+- [Blip_OS](BlipOS_Quick_Start_A4_EN.pdf)
+- [Kac_Bass_OS](KacOS_BASS_Quick_Start_A4_EN.pdf)
+- [PERC_OS](PercOS_Quick_Start_A4_EN.pdf)
+- [DriftScape_OS](DriftScapeOS_Quick_Start_A4_EN.pdf)
+- [CIG_OS](CIG_OS_Quick_Start_A4_EN.pdf)
+- [4S_OS](4S_OS_Quick_Start_A4_EN.pdf)
+- [Chimera_OS](ChimeraOS_Quick_Start_A4_EN.pdf)
+- [Ping_OS](PingOS_Quick_Start_A4_EN.pdf)
+- [Flux_OS](FluxOS_Quick_Start_A4_EN.pdf)
+- [Donut_OS](Donut_OS_Quick_Start_A4_EN.pdf)
+- [RELAB_OS](RELAB_OS_Quick_Start_A4_EN.pdf)
+- [Pull_OS](Pull_OS_Quick_Start_A4_EN.pdf)
+- [Aether_OS](AetherOS_Quick_Start_A4_EN.pdf)
+- [Fracture_OS](FractureOS_Quick_Start_A4_EN.pdf)
+- [Arc_OS](ArcOS_Quick_Start_A4_EN.pdf)

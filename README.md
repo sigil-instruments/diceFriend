@@ -6,7 +6,7 @@ Its character can be completely changed by installing a different operating syst
 
 ## Downloads
 
-This repository contains compiled firmware for all 22 diceFriend operating systems published on the official website, with English manuals and one-page Quick Start cards.
+This repository contains compiled firmware for 23 diceFriend operating systems, with English manuals and one-page Quick Start cards.
 
 - [Firmware catalogue and HEX downloads](firmware/README.md)
 - [English OS manuals and PDF downloads](docs/OS_manuals/README_EN.md)

@@ -1,6 +1,6 @@
 # diceFriend LEFT - English OS manuals
 
-Updated 2026-10-28. This folder contains English manuals for all 22 operating systems listed on the diceFriend website.
+Updated 2026-10-31. This folder contains English manuals for all 23 published operating systems.
 
 The list follows publication order, from oldest to newest.
 
@@ -28,6 +28,7 @@ The list follows publication order, from oldest to newest.
 | Aether_OS | [Markdown](AetherOS_40_manual_EN.md) | [PDF](pdf/EN/AetherOS_40_manual_EN.pdf) |
 | Fracture_OS | [Markdown](FractureOS_40_manual_EN.md) | [PDF](pdf/EN/FractureOS_40_manual_EN.pdf) |
 | Arc_OS | [Markdown](ArcOS_40_manual_EN.md) | [PDF](pdf/EN/ArcOS_40_manual_EN.pdf) |
+| Gambi_OS | [Markdown](Gambi_OS_40_manual_EN.md) | [PDF](pdf/EN/Gambi_OS_40_manual_EN.pdf) |
 
 Each PDF is generated from the matching English Markdown manual.
 

@@ -1,6 +1,6 @@
 # Firmware
 
-Ready-to-install diceFriend operating systems for Teensy 4.0. This catalogue contains only the 22 operating systems published on the official diceFriend website.
+Ready-to-install diceFriend operating systems for Teensy 4.0. This catalogue contains 23 published operating systems.
 
 | OS | Description | Downloads |
 |---|---|---|
@@ -26,3 +26,4 @@ Ready-to-install diceFriend operating systems for Teensy 4.0. This catalogue con
 | Aether_OS | A melodic attractor, granular pulsar and fractured stereo memory share a Lorenz-driven microtonal signal path. | [HEX](AetherOS_40_L.hex) · [Manual](../docs/OS_manuals/AetherOS_40_manual_EN.md) · [PDF](../docs/OS_manuals/pdf/EN/AetherOS_40_manual_EN.pdf) · [Quick Start](../docs/OS_manuals/Quick_Start_Cards_A4_EN/AetherOS_Quick_Start_A4_EN.pdf) |
 | Fracture_OS | Mallets, low electric piano and resonators evolve through microtonal melody, repeats and fractured memory. | [HEX](FractureOS_40_L.hex) · [Manual](../docs/OS_manuals/FractureOS_40_manual_EN.md) · [PDF](../docs/OS_manuals/pdf/EN/FractureOS_40_manual_EN.pdf) · [Quick Start](../docs/OS_manuals/Quick_Start_Cards_A4_EN/FractureOS_Quick_Start_A4_EN.pdf) |
 | Arc_OS | Four microtonal materials—spectral phase distortion, FM, a pressure resonator and sub—form unstable polyrhythms. | [HEX](ArcOS_40_L.hex) · [Manual](../docs/OS_manuals/ArcOS_40_manual_EN.md) · [PDF](../docs/OS_manuals/pdf/EN/ArcOS_40_manual_EN.pdf) · [Quick Start](../docs/OS_manuals/Quick_Start_Cards_A4_EN/ArcOS_Quick_Start_A4_EN.pdf) |
+| Gambi_OS | Slow veils, wet clatter and vinyl dust: three drifting tracks melt into one soft, unstable wall. | [HEX](Gambi_OS_40_L.hex) · [Manual](../docs/OS_manuals/Gambi_OS_40_manual_EN.md) · [PDF](../docs/OS_manuals/pdf/EN/Gambi_OS_40_manual_EN.pdf) · [Quick Start](../docs/OS_manuals/Quick_Start_Cards_A4_EN/Gambi_OS_Quick_Start_A4_EN.pdf) |

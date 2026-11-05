@@ -1,7 +1,5 @@
 # Documentation
 
-English manuals and Quick Start cards for all 26 published operating systems.
+English manuals and Quick Start cards for 27 published OSes.
 
-- [Browse OS manuals and download PDFs](OS_manuals/README_EN.md)
-- [Download one-page Quick Start cards](OS_manuals/Quick_Start_Cards_A4_EN/README.md)
-- [Browse firmware and download HEX files](../firmware/README.md)
+[Manuals](OS_manuals/README_EN.md) · [Cards](OS_manuals/Quick_Start_Cards_A4_EN/README.md)

@@ -8,6 +8,7 @@ Its character can be completely changed by installing a different operating syst
 
 This repository contains compiled firmware for 26 diceFriend operating systems, with English manuals and one-page Quick Start cards.
 
+- [Emergency PROGRAM button access - illustrated guide](docs/BOOTLOADER_RECOVERY.md)
 - [Firmware catalogue and HEX downloads](firmware/README.md)
 - [English OS manuals and PDF downloads](docs/OS_manuals/README_EN.md)
 - [English Quick Start cards](docs/OS_manuals/Quick_Start_Cards_A4_EN/README.md)

@@ -6,7 +6,7 @@ Its character can be completely changed by installing a different operating syst
 
 ## Downloads
 
-This repository contains compiled firmware for 23 diceFriend operating systems, with English manuals and one-page Quick Start cards.
+This repository contains compiled firmware for 26 diceFriend operating systems, with English manuals and one-page Quick Start cards.
 
 - [Firmware catalogue and HEX downloads](firmware/README.md)
 - [English OS manuals and PDF downloads](docs/OS_manuals/README_EN.md)
@@ -23,3 +23,7 @@ This repository contains compiled firmware for 23 diceFriend operating systems, 
 
 - [diceFriend website](https://dicefriend.sdrift.net/)
 - [Sigil Instruments on GitHub](https://github.com/sigil-instruments)
+
+## Build your own OS
+
+[SixOp_OS source and starter project](https://github.com/sigil-instruments/diceFriend-SixOp_OS) is a complete playable six-operator FM instrument with commented MIT-licensed code, developer guides and native audio preview. Fork it to build your own diceFriend OS.

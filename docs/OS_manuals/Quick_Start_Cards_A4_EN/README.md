@@ -1,6 +1,6 @@
 # English Quick Start cards
 
-One-page A4 guides for 23 published diceFriend operating systems.
+One-page A4 guides for 26 published diceFriend operating systems.
 
 - [Modal_OS](ModalOS_Quick_Start_A4_EN.pdf)
 - [Run_OS](RunOS_Quick_Start_A4_EN.pdf)
@@ -25,3 +25,6 @@ One-page A4 guides for 23 published diceFriend operating systems.
 - [Fracture_OS](FractureOS_Quick_Start_A4_EN.pdf)
 - [Arc_OS](ArcOS_Quick_Start_A4_EN.pdf)
 - [Gambi_OS](Gambi_OS_Quick_Start_A4_EN.pdf)
+- [Absu_OS](Absu_OS_Quick_Start_A4_EN.pdf)
+- [Gruz_OS](GruzOS_Quick_Start_A4_EN.pdf)
+- [SixOp_OS](SixOp_OS_Quick_Start_A4_EN.pdf)

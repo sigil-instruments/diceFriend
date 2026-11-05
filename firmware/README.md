@@ -1,6 +1,6 @@
 # Firmware
 
-Ready-to-install diceFriend operating systems for Teensy 4.0. This catalogue contains 23 published operating systems.
+Ready-to-install diceFriend operating systems for Teensy 4.0. This catalogue contains 26 published operating systems.
 
 | OS | Description | Downloads |
 |---|---|---|
@@ -27,3 +27,6 @@ Ready-to-install diceFriend operating systems for Teensy 4.0. This catalogue con
 | Fracture_OS | Mallets, low electric piano and resonators evolve through microtonal melody, repeats and fractured memory. | [HEX](FractureOS_40_L.hex) · [Manual](../docs/OS_manuals/FractureOS_40_manual_EN.md) · [PDF](../docs/OS_manuals/pdf/EN/FractureOS_40_manual_EN.pdf) · [Quick Start](../docs/OS_manuals/Quick_Start_Cards_A4_EN/FractureOS_Quick_Start_A4_EN.pdf) |
 | Arc_OS | Four microtonal materials—spectral phase distortion, FM, a pressure resonator and sub—form unstable polyrhythms. | [HEX](ArcOS_40_L.hex) · [Manual](../docs/OS_manuals/ArcOS_40_manual_EN.md) · [PDF](../docs/OS_manuals/pdf/EN/ArcOS_40_manual_EN.pdf) · [Quick Start](../docs/OS_manuals/Quick_Start_Cards_A4_EN/ArcOS_Quick_Start_A4_EN.pdf) |
 | Gambi_OS | Slow veils, wet clatter and vinyl dust: three drifting tracks melt into one soft, unstable wall. | [HEX](Gambi_OS_40_L.hex) · [Manual](../docs/OS_manuals/Gambi_OS_40_manual_EN.md) · [PDF](../docs/OS_manuals/pdf/EN/Gambi_OS_40_manual_EN.pdf) · [Quick Start](../docs/OS_manuals/Quick_Start_Cards_A4_EN/Gambi_OS_Quick_Start_A4_EN.pdf) |
+| Absu_OS | Autonomous drums, bass, chords and self-sampling with mutating rhythms and touch-played layers. | [HEX](Absu_OS_40_L.hex) · [Manual](../docs/OS_manuals/Absu_OS_40_manual_EN.md) · [PDF](../docs/OS_manuals/pdf/EN/Absu_OS_40_manual_EN.pdf) · [Quick Start](../docs/OS_manuals/Quick_Start_Cards_A4_EN/Absu_OS_Quick_Start_A4_EN.pdf) |
+| Gruz_OS | Three coupled tracks of PM bass, resonant noise and damaged ambience shaped by memory and saturation. | [HEX](GruzOS_40_L.hex) · [Manual](../docs/OS_manuals/GruzOS_40_manual_EN.md) · [PDF](../docs/OS_manuals/pdf/EN/GruzOS_40_manual_EN.pdf) · [Quick Start](../docs/OS_manuals/Quick_Start_Cards_A4_EN/GruzOS_Quick_Start_A4_EN.pdf) |
+| SixOp_OS | A complete six-operator FM instrument and MIT-licensed commented starter project for creating new OSes. | [HEX](SixOp_OS_40_L.hex) · [Manual](../docs/OS_manuals/SixOp_OS_40_manual_EN.md) · [PDF](../docs/OS_manuals/pdf/EN/SixOp_OS_40_manual_EN.pdf) · [Quick Start](../docs/OS_manuals/Quick_Start_Cards_A4_EN/SixOp_OS_Quick_Start_A4_EN.pdf) · [Source](https://github.com/sigil-instruments/diceFriend-SixOp_OS) |

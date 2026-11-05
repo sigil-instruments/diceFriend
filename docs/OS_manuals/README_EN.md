@@ -1,6 +1,6 @@
 # diceFriend LEFT - English OS manuals
 
-Updated 2026-10-31. This folder contains English manuals for all 23 published operating systems.
+Updated 2026-11-05. This folder contains English manuals for all 26 published operating systems.
 
 The list follows publication order, from oldest to newest.
 
@@ -29,6 +29,12 @@ The list follows publication order, from oldest to newest.
 | Fracture_OS | [Markdown](FractureOS_40_manual_EN.md) | [PDF](pdf/EN/FractureOS_40_manual_EN.pdf) |
 | Arc_OS | [Markdown](ArcOS_40_manual_EN.md) | [PDF](pdf/EN/ArcOS_40_manual_EN.pdf) |
 | Gambi_OS | [Markdown](Gambi_OS_40_manual_EN.md) | [PDF](pdf/EN/Gambi_OS_40_manual_EN.pdf) |
+
+| Absu_OS | [Markdown](Absu_OS_40_manual_EN.md) | [PDF](pdf/EN/Absu_OS_40_manual_EN.pdf) |
+
+| Gruz_OS | [Markdown](GruzOS_40_manual_EN.md) | [PDF](pdf/EN/GruzOS_40_manual_EN.pdf) |
+
+| SixOp_OS | [Markdown](SixOp_OS_40_manual_EN.md) | [PDF](pdf/EN/SixOp_OS_40_manual_EN.pdf) |
 
 Each PDF is generated from the matching English Markdown manual.
 

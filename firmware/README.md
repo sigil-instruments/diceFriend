@@ -1,5 +1,7 @@
 # Firmware
 
+[6 November 2026 update: CV1 spike protection, 27 updated HEX files and checksums](../docs/FIRMWARE_UPDATE_2026-11-06.md).
+
 27 diceFriend OS packages in publication order. Drzazga_OS is the newest addition.
 
 | No. | OS | Description | Downloads |

@@ -1,6 +1,6 @@
 # Gambi_OS - LEFT manual
 
-Version: 2026-10-31. Hardware: diceFriend LEFT, Teensy 4.0.
+Version: 2026-11-06. Hardware: diceFriend LEFT, Teensy 4.0.
 
 Gambi_OS is a slow, organic soundscape instrument. Three tracks, each built from three voices, melt into one soft and wet wall: veils of detuned tone swelling in slow motion, wooden clatter and droplets, breathing noise and low grunts. A shared shoegaze chain of glitch stutter, vinyl surface, tape wow, phaser and a very long reverb glues everything together. The melodies of the three tracks hook onto each other on dissonant intervals, but the whole stays closer to beautiful than ugly, always on the edge of instability.
 
@@ -130,7 +130,7 @@ A gesture belongs to the layer that was active when DICE was pressed. Changing S
 
 Clock priority is CV, then MIDI, then the internal clock.
 
-- A CV1 edge immediately takes ownership and triggers a step.
+- A CV1 pulse counts only if it is at least 50 µs long. CV1 takes ownership after two edges 1 ms to 10 s apart; from then on every edge triggers a step at once. Single spikes on an unpatched CV1 are ignored and cannot stop a running MIDI clock. The first pulse after silence does not play, and triggers more than 10 s apart are ignored.
 - MIDI Clock remains blocked for 20 seconds after the latest CV edge.
 - Internal timing returns after 30 seconds without an active external source.
 - MIDI Clock is received at 24 PPQN; each quarter note is one step.

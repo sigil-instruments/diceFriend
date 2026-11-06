@@ -6,6 +6,8 @@ Its character can be completely changed by installing a different operating syst
 
 ## Downloads
 
+- [6 November 2026 firmware update: CV1 spike protection and SixOp_OS v0.2](docs/FIRMWARE_UPDATE_2026-11-06.md)
+
 This repository contains compiled firmware for 27 diceFriend operating systems, with English manuals and one-page Quick Start cards.
 
 - [Emergency PROGRAM button access - illustrated guide](docs/BOOTLOADER_RECOVERY.md)

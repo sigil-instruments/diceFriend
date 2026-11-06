@@ -1,6 +1,6 @@
 # Drzazga_OS - LEFT manual
 
-Version: 2026-11-05. Hardware: diceFriend LEFT, Teensy 4.0.
+Version: 2026-11-06. Hardware: diceFriend LEFT, Teensy 4.0.
 
 Drzazga_OS is a percussive glitch instrument. A stable base of kick and a high electric pulse hat holds the ground, while five small percussion voices appear by chance in the gaps: a woodblock, a short triangle, an aluminium can, a rungler blip and an arc discharge zap. Between the hits, glitch grains cut from the latest strikes stutter, reverse, crush and slow down. The knobs travel from sparse, bending relabi textures with plenty of air, through broken grooves, to dense glitched drill rolls.
 
@@ -143,7 +143,7 @@ MIDI CC117 on channel 1 (low, then high) performs a full roll: new extra sounds 
 
 Clock priority is CV, then MIDI, then the internal clock.
 
-- A CV1 edge immediately takes ownership and plays one 16th step.
+- A CV1 pulse counts only if it is at least 50 µs long. CV1 takes ownership after two edges 1 ms to 10 s apart; from then on every edge plays one 16th step at once. Single spikes on an unpatched CV1 are ignored and cannot stop a running MIDI clock. The first pulse after silence does not play, and triggers more than 10 s apart are ignored.
 - MIDI Clock remains blocked for 20 seconds after the latest CV edge.
 - Internal timing returns after 30 seconds without an active external source.
 - MIDI Clock is received at 24 PPQN; every 6 clocks play one 16th step.

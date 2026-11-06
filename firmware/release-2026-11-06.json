@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-06",
+  "update": "CV1 spike guard v1",
+  "files": [
+    {
+      "file": "Absu_OS_40_L.hex",
+      "bytes": 175757,
+      "md5": "fd6ecee06547720ade6e3347c2393153",
+      "sha256": "b318fa63ec5856e14bfb67135e480fb6529a059a5e69065304384bbe3eda7917"
+    },
+    {
+      "file": "AetherOS_40_L.hex",
+      "bytes": 169997,
+      "md5": "2d970e3797063f67d34d5332fd92c600",
+      "sha256": "c3339fd924315f5c61fac9ad15934833228af591865876269269387f771dd578"
+    },
+    {
+      "file": "AltOS_40_L.hex",
+      "bytes": 244907,
+      "md5": "9b9c1cfd5dd0bc3f420f9a2c451bedc5",
+      "sha256": "dc9b8a23606ff9f274b56c071ecd66a54968780d5c445e0f9d37a6bc9604c0e7"
+    },
+    {
+      "file": "ArcOS_40_L.hex",
+      "bytes": 178637,
+      "md5": "52b5bf1f63d4a54f301d4906a30ca366",
+      "sha256": "01a9fd9e159858b787099cec649657a17011750e00ee4c4709fa34abc830ab94"
+    },
+    {
+      "file": "BalmOS_40_L.hex",
+      "bytes": 144077,
+      "md5": "32d5e71be7b9a4ae57b96395fbe862c4",
+      "sha256": "be2939461103c9e71e8745bf334a4b9c3fa48d8edd1bcd7a1f62b45ca5958d63"
+    },
+    {
+      "file": "BukOS_40_L.hex",
+      "bytes": 138317,
+      "md5": "14f9d636a2598828ebdc099244aefb49",
+      "sha256": "4608c4e797c40ef1e9d4eb6aaaf2dfe0d8a59b1f57305e5830ccede8888ed012"
+    },
+    {
+      "file": "DonutOS_40_L.hex",
+      "bytes": 242027,
+      "md5": "94722c203a88f0bbc962660f9bae262a",
+      "sha256": "8bb2c90d1d790ff6974df6bfd4f83163af1f8dd224d16a34cb74943baecc8076"
+    },
+    {
+      "file": "DriftScapeOS_40_L.hex",
+      "bytes": 270827,
+      "md5": "60d16a27a6345c58e7100e57f6d75487",
+      "sha256": "c968dc5621a8f4fba34b2f2d48eee96238f1506f62aace2820b7280327236be1"
+    },
+    {
+      "file": "Drzazga_OS_40_L.hex",
+      "bytes": 190174,
+      "md5": "394ba061aae5947ce66e8f948ea3e7d0",
+      "sha256": "5e494dc37fdd80e8886f756ba268d9c808f504683435dab69c32fd97212a3418"
+    },
+    {
+      "file": "ExtRemOS_40_L.hex",
+      "bytes": 172877,
+      "md5": "925a86eb2d1b3db759e953d92fc21d9a",
+      "sha256": "4fac24f08ffc7816109f717bb384f131549cd06c882b49990cefea8b1b40ae24"
+    },
+    {
+      "file": "FluxOS_40_L.hex",
+      "bytes": 227627,
+      "md5": "7a506f1ff2717dd149a8aded9d171870",
+      "sha256": "90722fee355a3c28a933ece3ad8d0c973c19ad835bb616a2c90a96a4d54589dc"
+    },
+    {
+      "file": "FractureOS_40_L.hex",
+      "bytes": 195934,
+      "md5": "c52c66741082aae0f91426f36e93cf83",
+      "sha256": "91d4e25f51bda351694a88dd33071b802cb92e2d5062f04858f7f238e2b58176"
+    },
+    {
+      "file": "Gambi_OS_40_L.hex",
+      "bytes": 167117,
+      "md5": "f89568129ff4e35fea0d37a23d4cbf59",
+      "sha256": "3fc673529eb318fb3d1c1e6e872f68fa3f83d2019a676b80b19d92bf6c731c90"
+    },
+    {
+      "file": "GenTexOS_40_L.hex",
+      "bytes": 233387,
+      "md5": "79b45ef4c766463b1f59fca256a1da90",
+      "sha256": "595aa72a7e0879670aecdfa067275910aa997e99029c8b62ff85d6928118a89a"
+    },
+    {
+      "file": "GruzOS_40_L.hex",
+      "bytes": 135437,
+      "md5": "c1f8ddedcddbe2cb723b027e6b177620",
+      "sha256": "8d7444a79a5ca08a6e25bacf24c3440fd7de9f91d7866c96f66664a1bc79f94e"
+    },
+    {
+      "file": "KacOS_40_BASS_L.hex",
+      "bytes": 161357,
+      "md5": "50fc1cab01f969c58f8c7b4c63845546",
+      "sha256": "1713a9770717269c9a0ad80b397181b6b0782e47f65689d4224fac11762c4fc1"
+    },
+    {
+      "file": "ModalOS_40_L.hex",
+      "bytes": 210334,
+      "md5": "54eab401914b1084e1c148bcc1d0b07b",
+      "sha256": "12bdbc00ba4bc72f28a32dfb62121bed30aabad90cc4a10a88bf46bac1146ef6"
+    },
+    {
+      "file": "MultOS_40_L.hex",
+      "bytes": 178637,
+      "md5": "368d3ece1307d20a3b3f57b035117c0c",
+      "sha256": "13ff61362cc2012e7fe09c439807e49772a127762ded9a9ba620c712c492534b"
+    },
+    {
+      "file": "NonLinOS_40_L.hex",
+      "bytes": 250667,
+      "md5": "6c9731081a6c36a43392deeee690ed9a",
+      "sha256": "ccea38357e6f86608880727eea51774438a1098885a0e8ea12614805c25452b8"
+    },
+    {
+      "file": "PanOS_40_L.hex",
+      "bytes": 239147,
+      "md5": "c80bf2de4631ecf18f8ccbfd988ab325",
+      "sha256": "bb6c30e8686b33bd256516478ef9b16c7a298bcd456d3e085eac2614c48ee3ee"
+    },
+    {
+      "file": "PercOS_40_L.hex",
+      "bytes": 135437,
+      "md5": "f4a116293b9bce0131562aa0a6b353e9",
+      "sha256": "0a38e96f49e775d256e15cca041a39a866244f1712ed43f5898268510a8c2d7a"
+    },
+    {
+      "file": "PingOS_40_L.hex",
+      "bytes": 144077,
+      "md5": "cbf16e7ddc50b05459528896be483bbf",
+      "sha256": "01a82cd6e2157c6f3f4b4047c2bad5b9ce1a2f75c3040fdeef2c3e078c22eae8"
+    },
+    {
+      "file": "Pull_OS_40_L.hex",
+      "bytes": 161357,
+      "md5": "3d1cdbc77a7e4a61935a07e3170a065f",
+      "sha256": "d7fc55f2fb43d6a491861069e7bc0a8315123edb3d25953ba3fabe31e080b01c"
+    },
+    {
+      "file": "RELAB_OS_40_L.hex",
+      "bytes": 152717,
+      "md5": "04fa0c2cd2c1de0556d7890b8bd1fec9",
+      "sha256": "72d6c41a4a5c5518669c8b95bd0d08260285ad83a01569ba68b6e50d01b941aa"
+    },
+    {
+      "file": "RunOS_40_L.hex",
+      "bytes": 236267,
+      "md5": "5ea3fb4080479c6137dd7970eb360955",
+      "sha256": "1db6c8fc296aeae92a43fcabcf57c72b136459cd916bd99b87f99c81fdf0964b"
+    },
+    {
+      "file": "SalviOS_40_L.hex",
+      "bytes": 218987,
+      "md5": "6df9465f67a76885f684737ba269809d",
+      "sha256": "26b1546e2ccc011772bab7b8927c8dd6840638b41c47763c2015b3c949743581"
+    },
+    {
+      "file": "SixOp_OS_40_L.hex",
+      "bytes": 221867,
+      "md5": "016dd831ad4bb63777637e7dfb1d104a",
+      "sha256": "a8583385a4f594e6d66f76e5d806515a11944192b4a07949589a27f882bb880e"
+    }
+  ]
+}

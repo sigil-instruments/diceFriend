@@ -1,6 +1,6 @@
 # Drzazga_OS - LEFT manual
 
-Version: 2026-11-06. Hardware: diceFriend LEFT, Teensy 4.0.
+Version: 2026-11-11 (v0.6). Hardware: diceFriend LEFT, Teensy 4.0.
 
 Drzazga_OS is a percussive glitch instrument. A stable base of kick and a high electric pulse hat holds the ground, while five small percussion voices appear by chance in the gaps: a woodblock, a short triangle, an aluminium can, a rungler blip and an arc discharge zap. Between the hits, glitch grains cut from the latest strikes stutter, reverse, crush and slow down. The knobs travel from sparse, bending relabi textures with plenty of air, through broken grooves, to dense glitched drill rolls.
 
@@ -146,9 +146,22 @@ Clock priority is CV, then MIDI, then the internal clock.
 - A CV1 pulse counts only if it is at least 50 µs long. CV1 takes ownership after two edges 1 ms to 10 s apart; from then on every edge plays one 16th step at once. Single spikes on an unpatched CV1 are ignored and cannot stop a running MIDI clock. The first pulse after silence does not play, and triggers more than 10 s apart are ignored.
 - MIDI Clock remains blocked for 20 seconds after the latest CV edge.
 - Internal timing returns after 30 seconds without an active external source.
-- MIDI Clock is received at 24 PPQN; every 6 clocks play one 16th step.
+- MIDI Clock is received at 24 PPQN (6 clocks = one 16th).
+- CV2 rising edges are a second clock input. CV1 has priority over CV2.
 - Start resets the loop to its first step; Continue resumes.
 - Stop locks all clocks until Start, Continue or a DICE mode switch. Pads and notes can still be played.
+
+### Own clock under MIDI (mutual mode)
+
+By default Drzazga_OS does not simply step on incoming MIDI Clock. It runs its own flywheel clock that follows the incoming tempo (about half a bar to lock) and sends its OWN MIDI Clock back out. Incoming ticks are never forwarded. A sequencer with automatic clock takeover (for example diceMotion) then follows Drzazga_OS while Drzazga_OS follows it, and the tempo breathes between them:
+
+- the sent clock is bent by half of the RELABI offset, so RELABI puts Drzazga_OS's timing into the other device; at RELABI 0 it just holds the tempo,
+- the tempo may drift a few percent but is pulled back to its centre; a clear tempo change on the other side, held for about two bars, becomes the new centre,
+- phase is aligned at Start and at the first clock after silence; after that only the tempo is followed (a continuous phase pull would make the loop speed up forever). Press Start on the master to realign,
+- if the incoming clock disappears, Drzazga_OS keeps playing at once, and after 30 s it stays on the same tempo until TEMPO is moved,
+- no MIDI Start is ever sent to the master.
+
+CC85 below 64 switches this off: Drzazga_OS then steps on every 6 incoming clocks and sends no clock while MIDI leads. CC85 at 64 or above switches it back on.
 
 The internal clock runs in AS and TS. Steps are scheduled ahead of time, so relabi bends, ratchets and rolls stay sample-accurate even while the pads are being read.
 
@@ -161,7 +174,7 @@ CV1 is the priority clock. Every clean rising edge plays one 16th step. The inte
 ### CV2
 
 - The CV2 level adds up to 50% DENSITY and up to 30% GLITCH.
-- Rising edges, 50 ms to 3 s apart, throw in one random extra. They do not move the transport.
+- Rising edges are a clock, like on PERC_OS: each edge plays one 16th step, CV takes over the transport (MIDI is blocked for 20 s) and Drzazga_OS sends MIDI Clock at the CV2 tempo. The first edge must follow another within 50 ms to 3 s; once CV leads, edges at least 20 ms apart count. CV1 has priority over CV2.
 - Drzazga_OS sends the smoothed CV2 value as CC74 when it changes.
 
 ## USB MIDI In
@@ -169,11 +182,12 @@ CV1 is the priority clock. Every clean rising edge plays one 16th step. The inte
 - Channel 1 and unassigned channels: Note On sets the fundamental of the tuned extras and plays the T3 voice selected by MATERIAL.
 - Channels 2-8 address voices 0-6 directly (KICK, HAT, WOOD, TRI, CAN, BLIP, ZAP). The note sets the pitch of that voice; HAT has no pitch.
 - Channel 10 uses the General MIDI drum map: 35/36 kick, 42/44/46 hat, 76/77 wood, 80/81 triangle, 56 can, 75 blip, 38-40 zap.
-- Every Note On produces an immediate audible hit, in AS and TS.
-- In TS, Note Off and Note On with velocity 0 damp the matching voice.
+- In AS every Note On produces an immediate audible hit.
+- In TS MIDI notes are ignored, like on PERC_OS: the recorded loop is the only source of hits, and TS follows only MIDI Clock, Start/Stop/Continue and CC. A sequencer sending notes cannot keep playing into the loop.
 - CC20-25 control the NS parameters P1-P6.
 - CC26-31 control the SHIFT parameters P1-P6.
 - CC74 acts like the CV2 level.
+- CC85: own clock under MIDI (mutual mode), 64-127 on (default), 0-63 off.
 - CC117 on channel 1: Remote DICE.
 - CC120 and CC123 damp all voices.
 - Channel 16 is reserved for Drzazga_OS output and is ignored on input.
@@ -193,9 +207,10 @@ All notes use MIDI channel 16 with General MIDI drum numbers:
 | BLIP | 75 |
 | ZAP | 40 |
 
-- Every hit from the sequencer, the pads and CV2 sends its note, timed with the sound. Ratchet copies are not sent.
-- Output is limited to 8 notes per 10 ms, so drill settings cannot flood USB.
-- While the internal clock or CV1 is the master, Drzazga_OS sends MIDI Start and Clock (24 PPQN). While MIDI is the master, no clock is sent.
+- Each sequencer step sends at most one note, timed with the sound: kick first, then hat, then an extra. Ratchet copies are not sent. Pads also send their note; a hat roll on T2 sends one note when it starts.
+- Hits caused by incoming MIDI notes are never sent back, so a sequencer that listens to Drzazga_OS cannot form a feedback loop.
+- Output is limited to 2 notes per 20 ms. Small USB hosts (for example an ESP32-based sequencer) stopped delivering MIDI to Drzazga_OS when it sent more.
+- While the internal clock, CV1 or CV2 leads, Drzazga_OS sends MIDI Start and Clock (24 PPQN). While MIDI leads, it sends its own flywheel clock (mutual mode, see Clocking), never a copy of the incoming ticks and never Start; with CC85 off it sends no clock.
 - CV2 sends CC74.
 
 ## LEDs

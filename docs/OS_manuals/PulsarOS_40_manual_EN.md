@@ -70,6 +70,8 @@ SHIFT layer:
 
 ## Touch Mode
 
+> **Touch mode (TS) is experimental.** Pad response in TS can be irregular: some touches may trigger late or not at all, and the voices can behave unpredictably. Treat TS as an exploratory, unstable playing surface rather than a precise percussion controller. RS is the main, stable mode of this OS.
+
 Touch mode provides three independent pulsar voices.
 
 Normal layer:
@@ -117,3 +119,11 @@ A smeared, feedback-heavy variation that turns short pulses into broader noisy b
 - External CV clock has priority over the internal RS timer; MIDI Clock takes control while it is present.
 - Touch mode is purely reactive: pads, CV, or MIDI must trigger a voice.
 - PulsarOS includes automatic recovery from silent feedback states.
+
+## Firmware update 2026-11-23
+
+- Constant level: a level keeper holds the long-term output, so knob positions, pads and DICE rolls no longer make the whole sound drop or jump. Short dynamics pass through.
+- The sparsest RS settings were removed: the pulse rate starts at about 4 Hz and the pulse width has a minimum, so the engine no longer falls into long silences between single clicks. The step tempo is unchanged.
+- Knob pickup follows the diceFriend standard: after a layer change, DICE or a panel MIDI CC, a knob takes over after moving about 8% of its range and glides in over 200 ms. Switching SHIFT no longer changes parameters by itself.
+- Touch pads track their idle level and switch on from the first reading, so a pad can no longer stay "touched" after release.
+- CV1 has the diceFriend spike guard: a pulse must stay high for 50 µs, and the first pulse after silence must be confirmed by a second one, so a noisy unpatched input cannot trigger the sound.

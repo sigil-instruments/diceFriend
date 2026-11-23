@@ -1,6 +1,6 @@
 # diceFriend - English OS manuals
 
-Updated 2026-11-23. 29 OS packages in publication order.
+Updated 2026-11-23. 30 OS packages in publication order.
 
 | No. | OS | Read manual | Download PDF |
 |---|---|---|---|
@@ -33,5 +33,6 @@ Updated 2026-11-23. 29 OS packages in publication order.
 | 27 | Drzazga_OS | [Markdown](Drzazga_OS_40_manual_EN.md) | [PDF](pdf/EN/Drzazga_OS_40_manual_EN.pdf) |
 | 28 | Lancuh_OS | [Markdown](Lancuh_OS_40_manual_EN.md) | [PDF](pdf/EN/Lancuh_OS_40_manual_EN.pdf) |
 | 29 | Imp_OS | [Markdown](ImpOS_40_manual_EN.md) | [PDF](pdf/EN/ImpOS_40_manual_EN.pdf) |
+| 30 | Mieso_OS | [Markdown](Mieso_OS_40_manual_EN.md) | [PDF](pdf/EN/Mieso_OS_40_manual_EN.pdf) |
 
 [Quick Start cards and complete collection](Quick_Start_Cards_A4_EN/README.md)

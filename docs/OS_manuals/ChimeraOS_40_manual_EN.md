@@ -4,6 +4,8 @@ Version: 2026-09-18. Hardware: diceFriend LEFT, Teensy 4.0.
 
 ## Character and modes
 
+> **Touch mode (TS) is experimental.** Pad response in TS can be irregular: some touches may trigger late or not at all, and the voices can behave unpredictably. Treat TS as an exploratory, unstable playing surface rather than a precise percussion controller. AS is the main, stable mode of this OS.
+
 Chimera_OS combines rungler-style registers, FM/PM, pulsars, feedback memory and a low-pass-gate model. AS runs one cybernetic organism and lets separate random dividers select one event every 2-5 source steps. TS runs three independent synthesis instances; pads and MIDI notes in TS do not use the AS 2-5 divider.
 
 ## Panel and DICE
@@ -45,3 +47,12 @@ MIDI Clock uses 24 PPQN. AS applies the 2-5 event divider; TS triggers on every 
 LED 0 shows a local MIDI-output event, LED 1 smoothed CV2, and LED 2/3 audio level L/R.
 
 In AS, start with low Density, Ecology toward the oscillator side and modest Coupling. Explore Fold and Ratio, then increase Memory. In TS, set three pitches and three decays; pad response does not wait for the AS divider.
+
+## Firmware update 2026-11-23
+
+- Constant level: a level keeper holds the long-term output, so knob positions, pads and DICE rolls no longer make the whole sound drop or jump. Short dynamics pass through. The level now matches Mieso_OS, CIG_OS and GenTex_OS.
+- The memory feedback path has a DC block: high COUPLING or Rupture can no longer latch the loop into silence. In AS the low-pass gate keeps a minimum opening between strikes.
+- Knob pickup follows the diceFriend standard: after a layer change, DICE or a panel MIDI CC, a knob takes over after moving about 8% of its range and glides in over 200 ms. The pickup is also re-armed when switching AS / TS. Switching SHIFT no longer changes parameters by itself.
+- Touch pads track their idle level and switch on from the first reading, so a pad can no longer stay "touched" after release.
+- CV1 has the diceFriend spike guard: a pulse must stay high for 50 µs, and the first pulse after silence must be confirmed by a second one, so a noisy unpatched input cannot trigger the sound.
+- A first CV2 edge counts only if another one came 50 ms to 3 s earlier; once CV2 leads, edges at least 20 ms apart count.

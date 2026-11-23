@@ -100,6 +100,17 @@ Raise PERIOD, widen the waveform window and move SHAPE slowly. Increase STEREO a
 
 In AS, find a stable pulse and hold T3 for recursive overload. Add T2 for a crushed edge. In TS, hold one pad for a gated tone and add another for a more unstable modulation.
 
+## Firmware update 2026-11-23
+
+- Constant level: a level keeper holds the long-term output, so knob positions, pads and DICE rolls no longer make the whole sound drop or jump. Short dynamics pass through.
+- PERIOD now starts at about 27 Hz (the slowest single clicks were removed), WIDTH has a minimum and LEVEL ranges from 55% to 100%.
+- An unpatched CV2 no longer lowers PERIOD. Below about 3% the input counts as unpatched.
+- The silence watchdog is active in AS and off in TS, where silence is intended.
+- Touch pads track their idle level, so a pad can no longer stay "touched" after release (Touch mode kept sounding after one touch).
+- Knob pickup follows the diceFriend standard: after a layer change, DICE or a panel MIDI CC, a knob takes over after moving about 8% of its range and glides in over 200 ms (the reading is filtered). Switching SHIFT no longer changes parameters by itself.
+- CV1 has the diceFriend spike guard: a pulse must stay high for 50 µs, and the first pulse after silence must be confirmed by a second one, so a noisy unpatched input cannot trigger the sound.
+- A first CV2 edge counts only if another one came 50 ms to 3 s earlier. The Pad 2 crush is dithered: quiet material turns to grit instead of silence.
+
 ## Firmware installation
 
 Download `ImpOS_40_L.hex`, open it in Teensy Loader, hold SHIFT + DICE for 10 seconds, then program and reboot. The illustrated emergency PROGRAM button guide is available in the diceFriend repository.

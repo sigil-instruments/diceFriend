@@ -1,10 +1,10 @@
 # Firmware
 
-29 diceFriend OS packages in publication order.
+30 diceFriend OS packages in publication order.
 
 [Setlist generator - four OSes in one firmware](https://dicefriend.sdrift.net/setlist?lang=en)
 
-Select four OSes, download one HEX file and install it with Teensy Loader. Switch between the selected OSes on diceFriend without a computer. Installation and switching instructions are included in the generator.
+The generator contains 29 OSes. Mieso_OS is available only as a standalone HEX.
 
 | No. | OS | Description | Downloads |
 |---|---|---|---|
@@ -37,3 +37,4 @@ Select four OSes, download one HEX file and install it with Teensy Loader. Switc
 | 27 | Drzazga_OS | Kick and electric pulse anchor five additional percussion voices. Relabi bends time and glitch cuts fragments from recent hits. TS records a 32-step loop from the pads. With SHIFT up, hold DICE and tap a pad to clear its lane. Tap all three during the same hold to clear the loop. | [HEX](Drzazga_OS_40_L.hex) · [Manual](../docs/OS_manuals/Drzazga_OS_40_manual_EN.md) · [PDF](../docs/OS_manuals/pdf/EN/Drzazga_OS_40_manual_EN.pdf) · [Quick Start](../docs/OS_manuals/Quick_Start_Cards_A4_EN/Drzazga_OS_Quick_Start_A4_EN.pdf) |
 | 28 | Lancuh_OS | A chain reaction drum machine inspired by CRD Machine by Kenta Osborn. Seven abstract voices are connected by wires with their own odds, delay and strength. Chaos, Fork and Gravity move from sparse grooves to polyrhythm, while glitch adds drop-outs, tape stops, half-time, stutters and reverb throws. In TS the graph learns the order and timing of your pad taps. With SHIFT up, hold DICE and tap a pad to make its node forget its wires. | [HEX](Lancuh_OS_40_L.hex) · [Manual](../docs/OS_manuals/Lancuh_OS_40_manual_EN.md) · [PDF](../docs/OS_manuals/pdf/EN/Lancuh_OS_40_manual_EN.pdf) · [Quick Start](../docs/OS_manuals/Quick_Start_Cards_A4_EN/Lancuh_OS_Quick_Start_A4_EN.pdf) |
 | 29 | Imp_OS | A stereo impulse generator with sixteen waveform families, variable window width and evolving masks. Period and Width move from isolated clicks to pitched buzzes and dense textures. In AS the pads add spectral folding, crushing and recursive overload. In TS they open a shared voice, with pad combinations adding modulation. | [HEX](ImpOS_40_L.hex) · [Manual](../docs/OS_manuals/ImpOS_40_manual_EN.md) · [PDF](../docs/OS_manuals/pdf/EN/ImpOS_40_manual_EN.pdf) · [Quick Start](../docs/OS_manuals/Quick_Start_Cards_A4_EN/ImpOS_Quick_Start_A4_EN.pdf) |
+| 30 | Mieso_OS | A harsh noise wall built on the CIG_OS impulse core, with a GenTex-style feedback loop, Chimera homeostasis and Pulsar pulse grain. Every source is loudness-normalised and a level keeper holds the output: no knob, pad, DICE roll or CV can make the whole wall drop. The texture changes, the level does not. In AS the wall plays all the time and jumps on every clock step; in TS it plays only under your fingers. | [HEX](Mieso_OS_40_L.hex) · [Manual](../docs/OS_manuals/Mieso_OS_40_manual_EN.md) · [PDF](../docs/OS_manuals/pdf/EN/Mieso_OS_40_manual_EN.pdf) · [Quick Start](../docs/OS_manuals/Quick_Start_Cards_A4_EN/Mieso_OS_Quick_Start_A4_EN.pdf) |

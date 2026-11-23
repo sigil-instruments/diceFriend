@@ -106,3 +106,10 @@ Touch mode uses the same CIG_OS core, but closes its output until a touch pad, C
 - Extreme high-frequency lockups are softened by a high-rail tamer: most repeated top-end states are folded slightly downward, while rare peaks are still allowed through.
 - In Touch mode, short taps behave like struck digital resonators, while longer holds reveal feedback and retained memory movement.
 - CIG_OS includes a silence-protection system that nudges the internal state away from dead zones while preserving the current character where possible.
+
+## Firmware update 2026-11-23
+
+- Constant level: a level keeper holds the long-term output, so knob positions, pads and DICE rolls no longer make the whole sound drop or jump. Short dynamics pass through. The level now matches Mieso_OS, GenTex_OS and Chimera_OS.
+- Knob pickup follows the diceFriend standard: after a layer change, DICE or a panel MIDI CC, a knob takes over after moving about 8% of its range and glides in over 200 ms. Switching SHIFT no longer changes parameters by itself.
+- Touch pads track their idle level, so a pad can no longer stay "touched" after release (Touch mode kept sounding after one touch on some units).
+- CV1 has the diceFriend spike guard: a pulse must stay high for 50 µs, and the first pulse after silence must be confirmed by a second one, so a noisy unpatched input cannot trigger the sound.

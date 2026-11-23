@@ -103,3 +103,10 @@ Randomization affects feedback, fold, delay, chaos, filter, pre-gain, smear, bit
 - CV2 triggers are useful for rhythmic texture events.
 - Touch mode is the safer place for pitched, pad-based performance.
 - RS mode is best for evolving texture, noise beds, and unstable stereo feedback.
+
+## Firmware update 2026-11-23
+
+- Constant level: a level keeper holds the long-term output, so knob positions, pads and DICE rolls no longer make the whole sound drop or jump. Short dynamics pass through. The level now matches Mieso_OS, CIG_OS and Chimera_OS.
+- The feedback loop can no longer starve: FEEDBACK, FOLD, the pre-gain and the bit depth (now at least 4 bits) keep a minimum, so low settings stay audible.
+- An unpatched CV1 no longer pulls FOLD and chaos down. Below about 3% the input counts as unpatched.
+- Knob pickup follows the diceFriend standard: after a layer change, DICE or a panel MIDI CC, a knob takes over after moving about 8% of its range and glides in over 200 ms. Switching SHIFT no longer changes parameters by itself.

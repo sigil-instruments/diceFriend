@@ -1,6 +1,6 @@
 # PERC_OS - LEFT manual
 
-Version: 2026-09-18. Hardware: diceFriend LEFT, Teensy 4.0.
+Version: 2026-11-08. Hardware: diceFriend LEFT, Teensy 4.0.
 
 ## Character and operating model
 
@@ -35,9 +35,9 @@ T1 is kick, T2 snare and T3 hi-hat. A new touch plays and records the event. Hol
 
 CV1 and CV2 are clock inputs only. One pulse advances one sixteenth note; a pulse does not create or record a new sound on an empty loop.
 
-MIDI Clock uses 24 PPQN, so every 6 incoming Clock messages advance one sixteenth. Start and Continue arm external timing. Stop clears the MIDI-clock state and allows the internal loop to return; it is not a persistent stop for the looper. CV has priority for about 30 seconds after its last pulse, and MIDI activity also expires after about 30 seconds.
+MIDI Clock uses 24 PPQN, so every 6 incoming Clock messages advance one sixteenth. Start and Continue arm external timing. Stop clears the MIDI-clock state and allows the internal loop to return; it is not a persistent stop for the looper. CV has priority for about 30 seconds after its last pulse, and MIDI activity also expires after about 30 seconds. Own clock under MIDI (mutual mode, 2026-11-08): while MIDI Clock leads, PERC_OS does not step on the incoming ticks. Its engine keeps its own timing, including swing, at the tempo of a flywheel that follows the incoming clock, and it sends its OWN MIDI Clock, 6 ticks per step with the swing. Incoming ticks are never forwarded and no Start is sent to the master. A sequencer with automatic clock takeover (for example diceMotion) and PERC_OS then influence each other; the tempo breathes a few percent and is pulled back to its centre, and a clear tempo change held for about two bars becomes the new centre. If the incoming clock disappears, PERC_OS keeps playing at once and keeps that tempo until SHIFT P1 is moved. CC85 below 64 switches back to the classic behaviour (step on every 6 incoming clocks, no clock out); 64 or above switches it on (default).
 
-The firmware receives CC20-31. CC20-25 control the global layer, corresponding to physical SHIFT; CC26-31 control the sound layer, corresponding to physical NS. It intentionally ignores MIDI Note On and Note Off. MIDI Out provides Clock and panel CC, but loop hits do not produce MIDI notes.
+The firmware receives CC20-31. CC20-25 control the global layer, corresponding to physical SHIFT; CC26-31 control the sound layer, corresponding to physical NS. It intentionally ignores MIDI Note On and Note Off. MIDI Out sends only realtime messages (Start once, MIDI Clock); loop hits do not produce MIDI notes and no panel CC is sent. CC85 sets the mutual clock mode.
 
 ## LEDs
 

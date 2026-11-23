@@ -1,7 +1,7 @@
 {
  "format": 1,
  "shell": "0.7",
- "built": "2026-11-23 10:11",
+ "built": "2026-11-23 18:48",
  "os": [
   {
    "id": "Drzazga",
@@ -38,8 +38,8 @@
    "name": "Lancuh_OS",
    "dir": "Lancuh_OS_40",
    "version": "0.8",
-   "desc": "chain reaction drum machine · learning graph · tape stops",
-   "descEn": "chain reaction drum machine · learning graph · tape stops",
+   "desc": "reakcja łańcuchowa · uczący się graf · tape stop",
+   "descEn": "chain reaction drums · learning graph · tape stops",
    "slots": [
     {
      "file": "firmware/setlist/Lancuh/s0.hex",
@@ -163,23 +163,23 @@
    "slots": [
     {
      "file": "firmware/setlist/CIG/s0.hex",
-     "kb": 66,
-     "sha256": "95319a8eba4f7d5c086164a07817b27f0c6051b6023b51b81ff74709bab57e87"
+     "kb": 68,
+     "sha256": "3120a8ba4afe77f096cf85afe0ae817a968c92ccb1dda1f9f142ef248c421e0e"
     },
     {
      "file": "firmware/setlist/CIG/s1.hex",
-     "kb": 66,
-     "sha256": "2f1fb233537c678dfe34fc3f8dc171c47ad5d3b9412b48810253784d863ece91"
+     "kb": 68,
+     "sha256": "699d2fe5a4726a567213715ca91cc27d40ae58c85835023e6c7a8bec386f2860"
     },
     {
      "file": "firmware/setlist/CIG/s2.hex",
-     "kb": 66,
-     "sha256": "6e4d15155fb1010b6b29ea896a7e5175a559910f13c5102c51708c8dc2b2f415"
+     "kb": 68,
+     "sha256": "fd60496f8fcbdc3d6d7e4f513b33ae19444d7812bfc5ccb2631b16cb2e423768"
     },
     {
      "file": "firmware/setlist/CIG/s3.hex",
-     "kb": 66,
-     "sha256": "13823d3b4c9eb2771185b4aa352e29a07751dcc9961bd1f8dace5e8feac02973"
+     "kb": 68,
+     "sha256": "e44b4f8898cb94d1ca37cc5874a9fc5f85f76b41dc68d0acc9967b37335d6618"
     }
    ]
   },
@@ -193,23 +193,23 @@
    "slots": [
     {
      "file": "firmware/setlist/Chimera/s0.hex",
-     "kb": 51,
-     "sha256": "3e4f19b987b8d79bd56f1563fc889d23ebe0ed996095b4364cb0a8d2278d1ada"
+     "kb": 53,
+     "sha256": "93f245ed65ac99e1b0a2a754d1c0e77577e2fb204c0b595cd7da1e1d7c49659f"
     },
     {
      "file": "firmware/setlist/Chimera/s1.hex",
-     "kb": 51,
-     "sha256": "021476ab55691580f7e8bae9730d278b9730ef3b6355b91b96348f2c7912882d"
+     "kb": 53,
+     "sha256": "cddd208321d62087e95d5ad03044499db3bdd7103c89de77b11accacdc2b7935"
     },
     {
      "file": "firmware/setlist/Chimera/s2.hex",
-     "kb": 51,
-     "sha256": "09637744fd4c8933ed6cf388864fe0680567df2ebccf9718e412668997d6ffb8"
+     "kb": 53,
+     "sha256": "f3fd4dffffc4171186c7baab0971f83c86bc3ef7f00e715be6646bb21186408c"
     },
     {
      "file": "firmware/setlist/Chimera/s3.hex",
-     "kb": 51,
-     "sha256": "0799cbc0e3b3b6361871aced19df2fcf20434067e66e3ef8161af0735882c52a"
+     "kb": 53,
+     "sha256": "311d0f6bd9e2e8136607e957b0af1a239e18a399a540449d00c274e4de8d6f2c"
     }
    ]
   },
@@ -223,23 +223,23 @@
    "slots": [
     {
      "file": "firmware/setlist/GenTex/s0.hex",
-     "kb": 85,
-     "sha256": "64ef10f981dcedfd2169344db229adba1b5541387d2134232bdd8edcddcf170f"
+     "kb": 87,
+     "sha256": "65ac47514cc01888017ab290446d4dd42aa351bb52dc74fe272676070a2d6e7b"
     },
     {
      "file": "firmware/setlist/GenTex/s1.hex",
-     "kb": 85,
-     "sha256": "49b8331ec0d7f4cbc0eafbf3fe7330e360b12dfdf0c7512805e65dd9e73e0534"
+     "kb": 87,
+     "sha256": "9cdaf5d89ccc4934b8edda01c1a7ff9ad8d444b12f5b5bf57454e1685a7f0577"
     },
     {
      "file": "firmware/setlist/GenTex/s2.hex",
-     "kb": 85,
-     "sha256": "3f6e4ce8ccba759af549dfeb150d0f293119d69c9aa67efd3c91464237bf8ce3"
+     "kb": 87,
+     "sha256": "67ab6c05af6b0432564ee407ca11df474a8d58d98dd744dc5e79310aae99a1f7"
     },
     {
      "file": "firmware/setlist/GenTex/s3.hex",
-     "kb": 85,
-     "sha256": "cb1f92d286782f1a564010a791390237f33ba3375d55d77135f6c14e482a94de"
+     "kb": 87,
+     "sha256": "4675d9a979df06f58f506ec24c699649f33f1fc7f0647e8cb236acaacdc848ed"
     }
    ]
   },
@@ -343,23 +343,23 @@
    "slots": [
     {
      "file": "firmware/setlist/Pulsar/s0.hex",
-     "kb": 62,
-     "sha256": "7614d2614a74969a8f1cbf890a5553bf96aae43302485ac805ef87ac3214ed07"
+     "kb": 64,
+     "sha256": "07aca02e4235b052d143483e472195ce952e99443787b058c3e885e2fee15eec"
     },
     {
      "file": "firmware/setlist/Pulsar/s1.hex",
-     "kb": 62,
-     "sha256": "caecaf7b3934a1d4b3c1cad3a5a36177fd0dc1599a0bb49e3f6fe686ff30afd3"
+     "kb": 64,
+     "sha256": "a57bca0fe221d7c7d356e20e263b0ecaf5b03c0153cb752c9be44d36b1e2a029"
     },
     {
      "file": "firmware/setlist/Pulsar/s2.hex",
-     "kb": 62,
-     "sha256": "e6f39f3d10c5210873343f9058d7f2e19044d181252caf3ccd0d0242af5334d6"
+     "kb": 64,
+     "sha256": "d5031ac39f8372d10b1ab401acfb7726a759af63f7b6a0cbd51664ebd20687be"
     },
     {
      "file": "firmware/setlist/Pulsar/s3.hex",
-     "kb": 62,
-     "sha256": "94e31ffaf75214dfc4b788a01cfd90873b0f75d0a669902abc127ccbaef5d3f3"
+     "kb": 64,
+     "sha256": "7959daa51ce477dfc32c82eb0ab429f439a1bb621ff0a0810aeb982e2b01df92"
     }
    ]
   },
@@ -848,28 +848,28 @@
    "name": "Imp_OS",
    "dir": "ImpOS_40",
    "version": "",
-   "desc": "Imp OS",
-   "descEn": "Imp OS",
+   "desc": "impulsy stereo · maski rytmiczne · rekurencyjny feedback",
+   "descEn": "stereo impulses · evolving masks · recursive feedback",
    "slots": [
     {
      "file": "firmware/setlist/Imp/s0.hex",
-     "kb": 49,
-     "sha256": "d2f563fb195ce563dd64525868ca6dff4f3570933fee9ab130f224c004139d95"
+     "kb": 52,
+     "sha256": "e57d4066aa9541052b3172871cc21a7612723b24cdad6bfb1c6146be02433bc3"
     },
     {
      "file": "firmware/setlist/Imp/s1.hex",
-     "kb": 49,
-     "sha256": "d4e72cd1d5e802c47bf91efa25115e8830a335365c293dde66db98d98b865fee"
+     "kb": 52,
+     "sha256": "24cb4e2b872a4ceb13d0e29cdffe9ea6e7aef7d8a85bedb8e04286bcebbba6fb"
     },
     {
      "file": "firmware/setlist/Imp/s2.hex",
-     "kb": 49,
-     "sha256": "5d8667ba9b853a0ed06da7fbefddfb854acfe3e434a13f9d53eb8256470e3079"
+     "kb": 52,
+     "sha256": "8f8114c7e5ee62848420f1b4a7b7782609507c184623ae7315dc9d91f33747b8"
     },
     {
      "file": "firmware/setlist/Imp/s3.hex",
-     "kb": 49,
-     "sha256": "1a57f104adaf4610b5c7e07c486b86f47cff114f00595e3a41a3254e60114ad1"
+     "kb": 52,
+     "sha256": "ac3434ca7311f58150e8dc2f89a6be7dd7dac8c349002f615b470d6665e3cb04"
     }
    ]
   }

@@ -8,11 +8,11 @@ Its character can be completely changed by installing a different operating syst
 
 - [6 November 2026 firmware update: CV1 spike protection and SixOp_OS v0.2](docs/FIRMWARE_UPDATE_2026-11-06.md)
 
-This repository contains compiled firmware for 29 diceFriend operating systems, with English manuals and one-page Quick Start cards.
+This repository contains compiled firmware for 30 diceFriend operating systems, with English manuals and one-page Quick Start cards.
 
 - [Setlist generator - combine four OSes in one firmware](https://dicefriend.sdrift.net/setlist?lang=en)
 
-Choose any four of the 29 available OSes and download a single HEX file. Install it with Teensy Loader, then switch between the four OSes on diceFriend without a computer. The generator includes switching and installation instructions and works entirely in your browser.
+Choose any four of the 29 OSes available in the generator and download a single HEX file. Install it with Teensy Loader, then switch between the four OSes on diceFriend without a computer. The generator includes switching and installation instructions and works entirely in your browser. Mieso_OS is currently available as standalone firmware only; it is not included in the Setlist generator.
 
 - [Emergency PROGRAM button access - illustrated guide](docs/BOOTLOADER_RECOVERY.md)
 - [Firmware catalogue and HEX downloads](firmware/README.md)

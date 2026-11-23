@@ -1,8 +1,8 @@
 # English Quick Start cards
 
-29 one-page A4 cards in publication order.
+30 one-page A4 cards in publication order.
 
-[Complete 29-page collection](diceFriend_All_OS_Quick_Start_A4_EN.pdf)
+[Complete 30-page collection](diceFriend_All_OS_Quick_Start_A4_EN.pdf)
 
 1. [Modal_OS](ModalOS_Quick_Start_A4_EN.pdf)
 2. [Run_OS](RunOS_Quick_Start_A4_EN.pdf)
@@ -33,3 +33,4 @@
 27. [Drzazga_OS](Drzazga_OS_Quick_Start_A4_EN.pdf)
 28. [Lancuh_OS](Lancuh_OS_Quick_Start_A4_EN.pdf)
 29. [Imp_OS](ImpOS_Quick_Start_A4_EN.pdf)
+30. [Mieso_OS](Mieso_OS_Quick_Start_A4_EN.pdf)

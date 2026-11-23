@@ -4,7 +4,7 @@
 
 [Setlist generator - four OSes in one firmware](https://dicefriend.sdrift.net/setlist?lang=en)
 
-The generator contains 29 OSes. Mieso_OS is available only as a standalone HEX.
+The generator contains all 30 OSes, including Mieso_OS. Choose four OSes and download one HEX file to switch between them on diceFriend without a computer.
 
 | No. | OS | Description | Downloads |
 |---|---|---|---|

@@ -12,7 +12,7 @@ This repository contains compiled firmware for 30 diceFriend operating systems, 
 
 - [Setlist generator - combine four OSes in one firmware](https://dicefriend.sdrift.net/setlist?lang=en)
 
-Choose any four of the 29 OSes available in the generator and download a single HEX file. Install it with Teensy Loader, then switch between the four OSes on diceFriend without a computer. The generator includes switching and installation instructions and works entirely in your browser. Mieso_OS is currently available as standalone firmware only; it is not included in the Setlist generator.
+Choose any four of the 30 OSes available in the generator, including Mieso_OS, and download a single HEX file. Install it with Teensy Loader, then switch between the four OSes on diceFriend without a computer. The generator includes switching and installation instructions and works entirely in your browser.
 
 - [Emergency PROGRAM button access - illustrated guide](docs/BOOTLOADER_RECOVERY.md)
 - [Firmware catalogue and HEX downloads](firmware/README.md)

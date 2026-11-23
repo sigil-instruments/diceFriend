@@ -1,7 +1,7 @@
 {
  "format": 1,
  "shell": "0.7",
- "built": "2026-11-23 18:48",
+ "built": "2026-11-23 19:15",
  "os": [
   {
    "id": "Drzazga",
@@ -870,6 +870,36 @@
      "file": "firmware/setlist/Imp/s3.hex",
      "kb": 52,
      "sha256": "ac3434ca7311f58150e8dc2f89a6be7dd7dac8c349002f615b470d6665e3cb04"
+    }
+   ]
+  },
+  {
+   "id": "Mieso",
+   "name": "Mieso_OS",
+   "dir": "Mieso_OS_40",
+   "version": "0.3",
+   "desc": "harsh noise wall · stały poziom · organiczny rdzeń CIG",
+   "descEn": "harsh noise wall · constant level · organic CIG core",
+   "slots": [
+    {
+     "file": "firmware/setlist/Mieso/s0.hex",
+     "kb": 69,
+     "sha256": "53a4b9048a6923ec08e62656dca4b667b69417c19fd096ae4f3358972478f09c"
+    },
+    {
+     "file": "firmware/setlist/Mieso/s1.hex",
+     "kb": 69,
+     "sha256": "e0e6b87ba8a464077e67482f149acbce4aa4e69f35d68027258945bf1251816a"
+    },
+    {
+     "file": "firmware/setlist/Mieso/s2.hex",
+     "kb": 69,
+     "sha256": "da90911bf75f040566245ab760f6665a21ce87a59bea1f070b2ff1ed45e1019f"
+    },
+    {
+     "file": "firmware/setlist/Mieso/s3.hex",
+     "kb": 69,
+     "sha256": "aa50335d316a205e67de5f2c8ee38fa91b62d7c1764c5c8ccc47177ba6544d03"
     }
    ]
   }

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>diceFriend // setlista</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* Tokens as in dicefriend_flasher.html / styles.css of the diceFriend site. */
+  :root {
+    --bg: #f1ede5; --bg-2: #e7e1d4; --fg: #0d0c0a; --soft: #6c655c; --dim: #9a9286;
+    --line: rgba(13, 12, 10, 0.16); --line-strong: rgba(13, 12, 10, 0.32);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--fg); font-family: 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace;
+         font-size: 13px; line-height: 1.6; }
+  header { padding: 32px 40px 24px; border-bottom: 1px solid var(--line); display: flex;
+           justify-content: space-between; align-items: flex-end; gap: 16px; }
+  .logo { font-size: 11px; color: var(--soft); letter-spacing: .15em; text-transform: uppercase; }
+  .logo span { color: var(--fg); font-weight: 500; }
+  .lang button { background: none; border: 1px solid var(--line-strong); color: var(--soft); font: inherit;
+                 font-size: 11px; padding: 2px 8px; cursor: pointer; }
+  .lang button[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  main { padding: 48px 40px 80px; max-width: 760px; }
+  .section-label { font-size: 10px; letter-spacing: .2em; text-transform: uppercase; color: var(--dim);
+                   margin: 40px 0 10px; }
+  h1 { font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-size: 28px; font-weight: 700;
+       line-height: 1.15; margin-bottom: 14px; }
+  .lead { color: var(--soft); max-width: 600px; }
+  .slot { display: flex; gap: 16px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid var(--line); }
+  .slot .n { width: 28px; color: var(--dim); padding-top: 9px; }
+  .slot .w { flex: 1; }
+  .slot select { width: 100%; background: var(--bg-2); color: var(--fg); border: 1px solid var(--line-strong);
+                 padding: 8px 10px; font: inherit; border-radius: 0; }
+  .slot .d { display: block; color: var(--soft); font-size: 11px; margin-top: 6px; }
+  .go { display: inline-block; margin-top: 28px; background: var(--fg); color: var(--bg); border: 0;
+        padding: 12px 22px; font: inherit; font-weight: 500; cursor: pointer; }
+  .go:disabled { background: var(--dim); cursor: default; }
+  #status { margin-top: 14px; color: var(--soft); min-height: 1.6em; word-break: break-all; }
+  #status.err { color: #a2361f; }
+  .steps .step { display: flex; gap: 14px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+  .steps .step .n { color: var(--dim); }
+  a { color: var(--fg); }
+  .note { margin-top: 18px; padding: 12px 14px; background: var(--bg-2); color: var(--soft); font-size: 12px; }
+  .foot { margin-top: 40px; color: var(--dim); font-size: 11px; }
+  @media (max-width: 600px) { header, main { padding-left: 20px; padding-right: 20px; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">sigil instruments / <span>diceFriend</span> / setlist</div>
+  <div class="lang"><button type="button" data-lang="pl">PL</button><button type="button" data-lang="en">EN</button></div>
+</header>
+<main>
+  <h1 data-t="title"></h1>
+  <p class="lead" data-t="lead"></p>
+
+  <div class="section-label" data-t="setlist"></div>
+  <div id="slots"></div>
+  <button class="go" id="go" disabled></button>
+  <div id="status"></div>
+
+  <div class="section-label" data-t="gesture"></div>
+  <div class="steps" id="gestureSteps"></div>
+
+  <div class="section-label" data-t="flash"></div>
+  <div class="steps" id="flashSteps"></div>
+  <div class="note" data-t="note"></div>
+  <div class="foot" id="foot"></div>
+</main>
+<script>
+// SetlistOS web builder. No compiler: every OS is prebuilt for each of the 4 flash slots
+// (firmware/setlist/<OS>/s0..s3.hex, listed in firmware/setlist/manifest.json). The page joins
+// 4 slot files into one Intel HEX exactly like SetlistOS_core/tools/make_setlist.py merge
+// (verified: identical SHA-256). Plain ES5 + XMLHttpRequest, so old browsers work too.
+(function () {
+  var T = {
+    pl: {
+      title: "Setlista: 4 OS-y w jednym firmware",
+      lead: "Wybierz cztery OS-y. Na scenie przełączasz się między nimi bez komputera, a kolejność slotów to kolejność diod.",
+      setlist: "setlista", gesture: "przełączanie na scenie", flash: "wgrywanie",
+      go: "pobierz firmware (.hex)", building: "składam…", ready: " gotowy",
+      slot: "slot", loading: "wczytuję listę OS-ów…",
+      gestureSteps: [
+        "SHIFT w dół (NS). Wycisz kanał diceFrienda na mikserze.",
+        "Trzymaj DICE i od razu dotknij wszystkich trzech padów. Po 2,5 s dźwięk milknie, diody migają: jesteś w menu. Puść wszystko.",
+        "Gałka 1 wybiera slot (dioda 1–4). Dioda slotu, który gra teraz, miga.",
+        "DICE: ten sam slot = powrót bez zmian; inny slot = przełączenie (krótka cisza, 3 mignięcia diody nowego slotu)."
+      ],
+      flashSteps: [
+        ["zainstaluj ", "<a href=\"https://www.pjrc.com/teensy/loader.html\" target=\"_blank\" rel=\"noopener\">Teensy Loader</a>", " (Mac / Windows) i otwórz go"],
+        ["przeciągnij pobrany plik ", "<b>.hex</b>", " na okno Teensy Loader albo użyj File → Open HEX File"],
+        ["ustaw ", "<b>SHIFT</b>", " w pozycji UP i przytrzymaj DICE przez 10 sek: bootloader mode"],
+        ["kliknij ", "<b>Program</b>", ", potem Reboot"]
+      ],
+      note: "Po wgraniu diceFriend startuje w slocie używanym ostatnio. Przełączenie slotu kasuje to, co OS trzymał w pamięci (np. nagraną pętlę). W slocie 1 jest selektor: każdy OS może być w dowolnym slocie.",
+      cannot: "nie mogę pobrać ", broken: "uszkodzony plik slotu ", server: " (otwórz stronę przez serwer WWW)"
+    },
+    en: {
+      title: "Setlist: 4 OSes in one firmware",
+      lead: "Pick four OSes. On stage you switch between them without a computer; the slot order is the LED order.",
+      setlist: "setlist", gesture: "switching on stage", flash: "flashing",
+      go: "download firmware (.hex)", building: "building…", ready: " ready",
+      slot: "slot", loading: "loading the OS list…",
+      gestureSteps: [
+        "SHIFT down (NS). Mute the diceFriend channel on your mixer.",
+        "Hold DICE and right away touch all three pads. After 2.5 s the sound stops and the LEDs flash: you are in the menu. Let go of everything.",
+        "Knob 1 picks the slot (LED 1–4). The LED of the slot playing now blinks.",
+        "DICE: same slot = back without changes; other slot = switch (short silence, 3 blinks of the new slot's LED)."
+      ],
+      flashSteps: [
+        ["install ", "<a href=\"https://www.pjrc.com/teensy/loader.html\" target=\"_blank\" rel=\"noopener\">Teensy Loader</a>", " (Mac / Windows) and open it"],
+        ["drag the downloaded ", "<b>.hex</b>", " file onto Teensy Loader, or use File → Open HEX file"],
+        ["with ", "<b>SHIFT</b>", " switch UP, hold DICE for 10 sec: bootloader mode"],
+        ["click ", "<b>Program</b>", ", then Reboot"]
+      ],
+      note: "After flashing, diceFriend starts in the slot used last. Switching slots clears what the OS kept in memory (e.g. a recorded loop). Slot 1 holds the selector: any OS can go in any slot.",
+      cannot: "cannot load ", broken: "broken slot file ", server: " (open the page through a web server)"
+    }
+  };
+  var EOF = ":00000001FF";
+  var BASE = "firmware/setlist/";
+  var manifest = null, lang = "pl";
+  var $ = function (id) { return document.getElementById(id); };
+
+  function pickLang() {
+    var m = /[?&]lang=(pl|en)/.exec(location.search);
+    if (m) return m[1];
+    try { var s = localStorage.getItem("dicefriend-lang"); if (s === "en" || s === "pl") return s; } catch (e) {}
+    return "pl";
+  }
+
+  function applyLang() {
+    var t = T[lang], i, els = document.querySelectorAll("[data-t]");
+    document.documentElement.lang = lang;
+    for (i = 0; i < els.length; i++) els[i].innerHTML = t[els[i].getAttribute("data-t")];
+    var b = document.querySelectorAll(".lang button");
+    for (i = 0; i < b.length; i++) b[i].setAttribute("aria-pressed", b[i].getAttribute("data-lang") === lang ? "true" : "false");
+    $("go").textContent = t.go;
+    var g = "", f = "";
+    for (i = 0; i < t.gestureSteps.length; i++) g += '<div class="step"><span class="n">0' + (i + 1) + "</span><span>" + t.gestureSteps[i] + "</span></div>";
+    for (i = 0; i < t.flashSteps.length; i++) f += '<div class="step"><span class="n">0' + (i + 1) + "</span><span>" + t.flashSteps[i].join("") + "</span></div>";
+    $("gestureSteps").innerHTML = g; $("flashSteps").innerHTML = f;
+    if (manifest) render(); else $("slots").textContent = t.loading;
+  }
+
+  function status(msg, err) { $("status").textContent = msg; $("status").className = err ? "err" : ""; }
+
+  function get(url, cb) {
+    var x = new XMLHttpRequest();
+    x.open("GET", url + "?v=" + (manifest ? encodeURIComponent(manifest.built) : new Date().getTime()), true);
+    x.onreadystatechange = function () {
+      if (x.readyState !== 4) return;
+      if (x.status === 200 || (x.status === 0 && x.responseText)) cb(null, x.responseText);
+      else cb(T[lang].cannot + url + " (" + x.status + ")");
+    };
+    x.send();
+  }
+
+  function byId(id) {
+    for (var i = 0; i < manifest.os.length; i++) if (manifest.os[i].id === id) return manifest.os[i];
+    return null;
+  }
+
+  function chosen() {
+    var ids = [];
+    for (var n = 0; n < 4; n++) { var el = $("s" + n); ids.push(el ? el.value : manifest.os[n % manifest.os.length].id); }
+    return ids;
+  }
+
+  function render() {
+    var keep = $("s0") ? chosen() : null, html = "", n, i;
+    for (n = 0; n < 4; n++) {
+      html += '<div class="slot"><span class="n">0' + (n + 1) + '</span><span class="w"><select id="s' + n + '" aria-label="' +
+              T[lang].slot + " " + (n + 1) + '">';
+      for (i = 0; i < manifest.os.length; i++) {
+        var o = manifest.os[i], sel = keep ? keep[n] === o.id : i === n % manifest.os.length;
+        html += '<option value="' + o.id + '"' + (sel ? " selected" : "") + ">" + o.name + (o.version ? " v" + o.version : "") + "</option>";
+      }
+      html += '</select><span class="d" id="d' + n + '"></span></span></div>';
+    }
+    $("slots").innerHTML = html;
+    for (n = 0; n < 4; n++) $("s" + n).onchange = describe;
+    describe();
+    $("go").disabled = false;
+    $("foot").textContent = "SetlistOS · shell v" + manifest.shell + " · " + manifest.built;
+  }
+
+  function describe() {
+    for (var n = 0; n < 4; n++) {
+      var o = byId($("s" + n).value);
+      $("d" + n).textContent = o ? (lang === "en" ? o.descEn : o.desc) : "";
+    }
+  }
+
+  function merge(texts) {
+    var out = [];
+    for (var n = 0; n < 4; n++) {
+      var lines = texts[n].split(/\r?\n/);
+      while (lines.length && lines[lines.length - 1] === "") lines.pop();
+      if (lines[lines.length - 1] !== EOF) throw T[lang].broken + (n + 1);
+      lines.pop();
+      for (var i = 0; i < lines.length; i++) {
+        if (n > 0 && lines[i].substr(7, 2) === "05") continue;  // start address only from slot 1
+        out.push(lines[i]);
+      }
+    }
+    out.push(EOF);
+    return out.join("\n") + "\n";
+  }
+
+  function sha256(text, cb) {
+    try {
+      if (!window.crypto || !crypto.subtle || !window.TextEncoder) return cb("");
+      crypto.subtle.digest("SHA-256", new TextEncoder().encode(text)).then(function (d) {
+        var a = new Uint8Array(d), s = "";
+        for (var i = 0; i < 4; i++) s += (a[i] < 16 ? "0" : "") + a[i].toString(16);
+        cb(s);
+      }, function () { cb(""); });
+    } catch (e) { cb(""); }
+  }
+
+  function download(name, text) {
+    var blob = new Blob([text], { type: "application/octet-stream" });
+    if (window.navigator && navigator.msSaveBlob) { navigator.msSaveBlob(blob, name); return; }
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = name;
+    document.body.appendChild(a); a.click();
+    setTimeout(function () { URL.revokeObjectURL(a.href); document.body.removeChild(a); }, 1000);
+  }
+
+  $("go").onclick = function () {
+    var ids = chosen(), texts = [], left = 4, failed = false;
+    $("go").disabled = true;
+    status(T[lang].building);
+    for (var k = 0; k < 4; k++) (function (n) {
+      get(byId(ids[n]).slots[n].file, function (err, text) {
+        if (failed) return;
+        if (err) { failed = true; $("go").disabled = false; return status(err, true); }
+        texts[n] = text;
+        if (--left) return;
+        try {
+          var out = merge(texts), name = "SetlistOS_" + ids.join("_") + ".hex";
+          download(name, out);
+          sha256(out, function (h) { status(name + T[lang].ready + (h ? " · SHA-256 " + h : "")); $("go").disabled = false; });
+        } catch (e) { status(String(e), true); $("go").disabled = false; }
+      });
+    })(k);
+  };
+
+  var lb = document.querySelectorAll(".lang button");
+  for (var i = 0; i < lb.length; i++) lb[i].onclick = function () {
+    lang = this.getAttribute("data-lang");
+    try { localStorage.setItem("dicefriend-lang", lang); } catch (e) {}
+    applyLang();
+  };
+
+  lang = pickLang();
+  applyLang();
+  get(BASE + "manifest.json", function (err, text) {
+    if (err) return status(err + (location.protocol === "file:" ? T[lang].server : ""), true);
+    try { manifest = JSON.parse(text); } catch (e) { return status("manifest.json?", true); }
+    render();
+  });
+})();
+</script>
+</body>
+</html>

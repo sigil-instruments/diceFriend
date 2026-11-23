@@ -1,0 +1,877 @@
+{
+ "format": 1,
+ "shell": "0.7",
+ "built": "2026-11-23 10:11",
+ "os": [
+  {
+   "id": "Drzazga",
+   "name": "Drzazga_OS",
+   "dir": "Drzazga_OS_40",
+   "version": "0.8",
+   "desc": "kick i elektryczny puls · perkusyjne odpryski · glitch",
+   "descEn": "kick and electric pulse · percussion splinters · glitch",
+   "slots": [
+    {
+     "file": "firmware/setlist/Drzazga/s0.hex",
+     "kb": 71,
+     "sha256": "4cf591783f44879b27447222c0e53530b8c185e76a6b67929a88b7e453191af7"
+    },
+    {
+     "file": "firmware/setlist/Drzazga/s1.hex",
+     "kb": 71,
+     "sha256": "6094c839ea3c61344fc519c39acf1f14f9fd82404d7ec7ad806230f3bb954fec"
+    },
+    {
+     "file": "firmware/setlist/Drzazga/s2.hex",
+     "kb": 71,
+     "sha256": "562befcb19940e269825ad51159c29606fc3a9a09ce9e9cfdc7f4612e95dd5c6"
+    },
+    {
+     "file": "firmware/setlist/Drzazga/s3.hex",
+     "kb": 71,
+     "sha256": "e6fd8c765d356fab4d042cb5340f682485a38202b04009f24f8538b174f6319a"
+    }
+   ]
+  },
+  {
+   "id": "Lancuh",
+   "name": "Lancuh_OS",
+   "dir": "Lancuh_OS_40",
+   "version": "0.8",
+   "desc": "chain reaction drum machine · learning graph · tape stops",
+   "descEn": "chain reaction drum machine · learning graph · tape stops",
+   "slots": [
+    {
+     "file": "firmware/setlist/Lancuh/s0.hex",
+     "kb": 78,
+     "sha256": "a1970933a029c4c369cb69a9647d3dd9e23a9db9e59371bceefe9a76ad5f21a9"
+    },
+    {
+     "file": "firmware/setlist/Lancuh/s1.hex",
+     "kb": 78,
+     "sha256": "68aafd2ea63731e252c1c666af451c1aadb4eb753bfcdd89e0e349996e0981ff"
+    },
+    {
+     "file": "firmware/setlist/Lancuh/s2.hex",
+     "kb": 78,
+     "sha256": "65f9db177854c914f7230544ff700661f808da109637e3836246ffe4659a09eb"
+    },
+    {
+     "file": "firmware/setlist/Lancuh/s3.hex",
+     "kb": 78,
+     "sha256": "eeedf9291d5d84fb31a9cf69cbdf0f7fcffa0e8fe7a829f6f2b1219072c84b03"
+    }
+   ]
+  },
+  {
+   "id": "Absu",
+   "name": "Absu_OS",
+   "dir": "Absu_OS_40",
+   "version": "",
+   "desc": "mutating rhythms · bass and chords · self-sampling",
+   "descEn": "mutating rhythms · bass and chords · self-sampling",
+   "slots": [
+    {
+     "file": "firmware/setlist/Absu/s0.hex",
+     "kb": 64,
+     "sha256": "aca5e52c42060a90a98054f897d4302fdb7949dbb40d8bb74a25b69b443b5fde"
+    },
+    {
+     "file": "firmware/setlist/Absu/s1.hex",
+     "kb": 64,
+     "sha256": "60771a414d0d23c81082dea31c1278109a87a6b64cdc799663fccfd822272c09"
+    },
+    {
+     "file": "firmware/setlist/Absu/s2.hex",
+     "kb": 64,
+     "sha256": "dc4703b83408434a66eb8a02f3269d86f9dfc687f129e99516f3c7677c04807d"
+    },
+    {
+     "file": "firmware/setlist/Absu/s3.hex",
+     "kb": 64,
+     "sha256": "a7a4adf90c480f070e7002047e6eda5f85aa30fffab659d50960a2926a7e74d3"
+    }
+   ]
+  },
+  {
+   "id": "Blip",
+   "name": "Blip_OS",
+   "dir": "BlipOS_40",
+   "version": "",
+   "desc": "cross-coupled clocks · shift registers · resonant peaks",
+   "descEn": "cross-coupled clocks · shift registers · resonant peaks",
+   "slots": [
+    {
+     "file": "firmware/setlist/Blip/s0.hex",
+     "kb": 60,
+     "sha256": "bca29fd07e5b4208cb83a12a4ba6ba38f0d503a38c6186cb037e536a3885c343"
+    },
+    {
+     "file": "firmware/setlist/Blip/s1.hex",
+     "kb": 60,
+     "sha256": "538f63a6c6b8470f267792c00888b70256b67e1a6107c97fbaac3f1752c1abe3"
+    },
+    {
+     "file": "firmware/setlist/Blip/s2.hex",
+     "kb": 60,
+     "sha256": "14ff27e229b529df5f110b2480a63b2aaa6cebe990eed3f99797c66056723ede"
+    },
+    {
+     "file": "firmware/setlist/Blip/s3.hex",
+     "kb": 60,
+     "sha256": "270fa22be2479f6a1f61755dfe0aefad91ce819d40bd2584b76b73dce081ae21"
+    }
+   ]
+  },
+  {
+   "id": "4S",
+   "name": "4S_OS",
+   "dir": "4S_OS_40",
+   "version": "",
+   "desc": "four slopes · cybernetic coupling · collision cascades",
+   "descEn": "four slopes · cybernetic coupling · collision cascades",
+   "slots": [
+    {
+     "file": "firmware/setlist/4S/s0.hex",
+     "kb": 58,
+     "sha256": "c922436eb95fd80ec0899463df835a719d389eee1e93b14abf6ec8e7af34c833"
+    },
+    {
+     "file": "firmware/setlist/4S/s1.hex",
+     "kb": 58,
+     "sha256": "2acab48b2d1d7a0bda9663236ab3abc3ce4380ffbf02134794ce89bc027dcd8b"
+    },
+    {
+     "file": "firmware/setlist/4S/s2.hex",
+     "kb": 58,
+     "sha256": "2a099ab5ec3bcd6e873ddba736df8a98d51aadc80b8f907524b3ab78686eb0bd"
+    },
+    {
+     "file": "firmware/setlist/4S/s3.hex",
+     "kb": 58,
+     "sha256": "5d4b55e89bd296ab6df01f7abf7450bb526ef02052643e1e5d4f28b5f44eae8f"
+    }
+   ]
+  },
+  {
+   "id": "CIG",
+   "name": "CIG_OS",
+   "dir": "CIG_OS_40",
+   "version": "",
+   "desc": "impulse core · fragmented memory · unstable clock",
+   "descEn": "impulse core · fragmented memory · unstable clock",
+   "slots": [
+    {
+     "file": "firmware/setlist/CIG/s0.hex",
+     "kb": 66,
+     "sha256": "95319a8eba4f7d5c086164a07817b27f0c6051b6023b51b81ff74709bab57e87"
+    },
+    {
+     "file": "firmware/setlist/CIG/s1.hex",
+     "kb": 66,
+     "sha256": "2f1fb233537c678dfe34fc3f8dc171c47ad5d3b9412b48810253784d863ece91"
+    },
+    {
+     "file": "firmware/setlist/CIG/s2.hex",
+     "kb": 66,
+     "sha256": "6e4d15155fb1010b6b29ea896a7e5175a559910f13c5102c51708c8dc2b2f415"
+    },
+    {
+     "file": "firmware/setlist/CIG/s3.hex",
+     "kb": 66,
+     "sha256": "13823d3b4c9eb2771185b4aa352e29a07751dcc9961bd1f8dace5e8feac02973"
+    }
+   ]
+  },
+  {
+   "id": "Chimera",
+   "name": "Chimera_OS",
+   "dir": "ChimeraOS_40",
+   "version": "",
+   "desc": "cybernetic organism · pulsar · rungler · Buchla path",
+   "descEn": "cybernetic organism · pulsar · rungler · Buchla path",
+   "slots": [
+    {
+     "file": "firmware/setlist/Chimera/s0.hex",
+     "kb": 51,
+     "sha256": "3e4f19b987b8d79bd56f1563fc889d23ebe0ed996095b4364cb0a8d2278d1ada"
+    },
+    {
+     "file": "firmware/setlist/Chimera/s1.hex",
+     "kb": 51,
+     "sha256": "021476ab55691580f7e8bae9730d278b9730ef3b6355b91b96348f2c7912882d"
+    },
+    {
+     "file": "firmware/setlist/Chimera/s2.hex",
+     "kb": 51,
+     "sha256": "09637744fd4c8933ed6cf388864fe0680567df2ebccf9718e412668997d6ffb8"
+    },
+    {
+     "file": "firmware/setlist/Chimera/s3.hex",
+     "kb": 51,
+     "sha256": "0799cbc0e3b3b6361871aced19df2fcf20434067e66e3ef8161af0735882c52a"
+    }
+   ]
+  },
+  {
+   "id": "GenTex",
+   "name": "GenTex_OS",
+   "dir": "GenTexOS_40",
+   "version": "",
+   "desc": "feedback textures / folded noise beds",
+   "descEn": "feedback textures / folded noise beds",
+   "slots": [
+    {
+     "file": "firmware/setlist/GenTex/s0.hex",
+     "kb": 85,
+     "sha256": "64ef10f981dcedfd2169344db229adba1b5541387d2134232bdd8edcddcf170f"
+    },
+    {
+     "file": "firmware/setlist/GenTex/s1.hex",
+     "kb": 85,
+     "sha256": "49b8331ec0d7f4cbc0eafbf3fe7330e360b12dfdf0c7512805e65dd9e73e0534"
+    },
+    {
+     "file": "firmware/setlist/GenTex/s2.hex",
+     "kb": 85,
+     "sha256": "3f6e4ce8ccba759af549dfeb150d0f293119d69c9aa67efd3c91464237bf8ce3"
+    },
+    {
+     "file": "firmware/setlist/GenTex/s3.hex",
+     "kb": 85,
+     "sha256": "cb1f92d286782f1a564010a791390237f33ba3375d55d77135f6c14e482a94de"
+    }
+   ]
+  },
+  {
+   "id": "Fracture",
+   "name": "Fracture_OS",
+   "dir": "FractureOS_40",
+   "version": "",
+   "desc": "mallets · electric piano · fractured memory",
+   "descEn": "mallets · electric piano · fractured memory",
+   "slots": [
+    {
+     "file": "firmware/setlist/Fracture/s0.hex",
+     "kb": 71,
+     "sha256": "96913e5b92eda0f527f80379793e58bc8652e86dd83e9d976d15c40bf9ca19ce"
+    },
+    {
+     "file": "firmware/setlist/Fracture/s1.hex",
+     "kb": 71,
+     "sha256": "458c22705df6c60baf3a33a057b08fdc9b3c96d24426c105df2731ffcd8dd1c7"
+    },
+    {
+     "file": "firmware/setlist/Fracture/s2.hex",
+     "kb": 71,
+     "sha256": "2ee993601898baa3a385541af7ecc54bb32372e06999b31a6126f52d2f240c1d"
+    },
+    {
+     "file": "firmware/setlist/Fracture/s3.hex",
+     "kb": 71,
+     "sha256": "e80dda03bd8398753566153368fa288f816b67335de34f71304e559edb0b1664"
+    }
+   ]
+  },
+  {
+   "id": "Gambi",
+   "name": "Gambi_OS",
+   "dir": "Gambi_OS_40",
+   "version": "0.4",
+   "desc": "slow organic soundscape · three tracks · shoegaze chain",
+   "descEn": "slow organic soundscape · three tracks · shoegaze chain",
+   "slots": [
+    {
+     "file": "firmware/setlist/Gambi/s0.hex",
+     "kb": 62,
+     "sha256": "df75d30ffbdbf58397c7d93a5e8d709b8afa34c892c267ddd57acd1d958852d3"
+    },
+    {
+     "file": "firmware/setlist/Gambi/s1.hex",
+     "kb": 61,
+     "sha256": "f49f506e172a4404f3e62db8e708ba00ecd17add70322e06c525591137888bf2"
+    },
+    {
+     "file": "firmware/setlist/Gambi/s2.hex",
+     "kb": 61,
+     "sha256": "a8376011dc463a3380d58981bca62726950c00dd995f01d974bedd276a194b59"
+    },
+    {
+     "file": "firmware/setlist/Gambi/s3.hex",
+     "kb": 61,
+     "sha256": "97210d72c3ac4b8e9de3f6ed2675f1f68868fbe080763c2fe1ab7b226dbd444c"
+    }
+   ]
+  },
+  {
+   "id": "Modal",
+   "name": "Modal_OS",
+   "dir": "ModalOS_40",
+   "version": "",
+   "desc": "resonator bodies / struck modes",
+   "descEn": "resonator bodies / struck modes",
+   "slots": [
+    {
+     "file": "firmware/setlist/Modal/s0.hex",
+     "kb": 76,
+     "sha256": "2780b414986cd566b1f4666a3ce8241ac3b2cce33008eb92f926c7241c1ad005"
+    },
+    {
+     "file": "firmware/setlist/Modal/s1.hex",
+     "kb": 76,
+     "sha256": "2035002d5455b2cc28389e563d368fb46a8724b7d8b1ee59a1c001747f874f47"
+    },
+    {
+     "file": "firmware/setlist/Modal/s2.hex",
+     "kb": 76,
+     "sha256": "35d4784252ee5996319c41a8551777ddf258c16f2359d4c83dce48fbc6fa550d"
+    },
+    {
+     "file": "firmware/setlist/Modal/s3.hex",
+     "kb": 76,
+     "sha256": "0c5704e9ce86e93df2416de10487f8a278d1aaa381315c5cee9967f757b2c018"
+    }
+   ]
+  },
+  {
+   "id": "Pulsar",
+   "name": "Pulsar_OS",
+   "dir": "PulsarOS_40",
+   "version": "",
+   "desc": "pulse density · nonlinear feedback · stereo orbit",
+   "descEn": "pulse density · nonlinear feedback · stereo orbit",
+   "slots": [
+    {
+     "file": "firmware/setlist/Pulsar/s0.hex",
+     "kb": 62,
+     "sha256": "7614d2614a74969a8f1cbf890a5553bf96aae43302485ac805ef87ac3214ed07"
+    },
+    {
+     "file": "firmware/setlist/Pulsar/s1.hex",
+     "kb": 62,
+     "sha256": "caecaf7b3934a1d4b3c1cad3a5a36177fd0dc1599a0bb49e3f6fe686ff30afd3"
+    },
+    {
+     "file": "firmware/setlist/Pulsar/s2.hex",
+     "kb": 62,
+     "sha256": "e6f39f3d10c5210873343f9058d7f2e19044d181252caf3ccd0d0242af5334d6"
+    },
+    {
+     "file": "firmware/setlist/Pulsar/s3.hex",
+     "kb": 62,
+     "sha256": "94e31ffaf75214dfc4b788a01cfd90873b0f75d0a669902abc127ccbaef5d3f3"
+    }
+   ]
+  },
+  {
+   "id": "Aether",
+   "name": "Aether_OS",
+   "dir": "AetherOS_40",
+   "version": "",
+   "desc": "melodic attractor · granular pulsar · stereo memory",
+   "descEn": "melodic attractor · granular pulsar · stereo memory",
+   "slots": [
+    {
+     "file": "firmware/setlist/Aether/s0.hex",
+     "kb": 63,
+     "sha256": "8a725ca42bdedf917adb6545a8a6f7aa341368b162dc2b7a1f4a8b0b66d7b6db"
+    },
+    {
+     "file": "firmware/setlist/Aether/s1.hex",
+     "kb": 63,
+     "sha256": "c562b6d9aad2da751dee48034388a6cf6946983e5bf535583899e77da7ee1800"
+    },
+    {
+     "file": "firmware/setlist/Aether/s2.hex",
+     "kb": 63,
+     "sha256": "7c65792bf4467d2e47cfa3429958607f4d83d0c5129030ff17a02b3254535a08"
+    },
+    {
+     "file": "firmware/setlist/Aether/s3.hex",
+     "kb": 63,
+     "sha256": "1f30d7a5364aa9aa6a45f6a983e0dc473d01955a622cdab1ae6d784ffffc0471"
+    }
+   ]
+  },
+  {
+   "id": "Arc",
+   "name": "Arc_OS",
+   "dir": "ArcOS_40",
+   "version": "",
+   "desc": "four materials · microtonal registers · spectral arc",
+   "descEn": "four materials · microtonal registers · spectral arc",
+   "slots": [
+    {
+     "file": "firmware/setlist/Arc/s0.hex",
+     "kb": 65,
+     "sha256": "cece35cde535864b913314b34d2bb2130696fbc1a5d0389e6d7a8ecafefce5ad"
+    },
+    {
+     "file": "firmware/setlist/Arc/s1.hex",
+     "kb": 65,
+     "sha256": "7a9569480b596ce9ed246c25f4e867109b0f983240bc8fa9b40a2f9e5b0e1e86"
+    },
+    {
+     "file": "firmware/setlist/Arc/s2.hex",
+     "kb": 65,
+     "sha256": "206d7761fc89045a812b64994c0716361504f23202f806e4b5b7c1089880fbc1"
+    },
+    {
+     "file": "firmware/setlist/Arc/s3.hex",
+     "kb": 65,
+     "sha256": "8159536e55b264ba7131e300024fd3708cb7b8d94046454f0b0d1d7c519f47c2"
+    }
+   ]
+  },
+  {
+   "id": "SixOp",
+   "name": "SixOp_OS",
+   "dir": "SixOp_OS_40",
+   "version": "0.2",
+   "desc": "six-operator FM · three voices · open-source showcase",
+   "descEn": "six-operator FM · three voices · open-source showcase",
+   "slots": [
+    {
+     "file": "firmware/setlist/SixOp/s0.hex",
+     "kb": 80,
+     "sha256": "8e506d1bb2810880b2c228cc1af513489a4b7496524e71aeb0a454ff2fa59cb8"
+    },
+    {
+     "file": "firmware/setlist/SixOp/s1.hex",
+     "kb": 80,
+     "sha256": "e661b14b8e076b8a5c5e3cdf05e9a4fa92c68655c3c755b71f528dcc043e2358"
+    },
+    {
+     "file": "firmware/setlist/SixOp/s2.hex",
+     "kb": 80,
+     "sha256": "72c643d98c7774ae31589f484ec1cff9b71dd31c252ed548c9a1cdcd03f6db28"
+    },
+    {
+     "file": "firmware/setlist/SixOp/s3.hex",
+     "kb": 80,
+     "sha256": "37e4ab71ec3f0cf1213e37c6aa234cccc91cc3f78c84ee0d38148807d6dac161"
+    }
+   ]
+  },
+  {
+   "id": "Perc",
+   "name": "PERC_OS",
+   "dir": "PercOS_40",
+   "version": "",
+   "desc": "touch drums · four engines · mutable 32-step loop",
+   "descEn": "touch drums · four engines · mutable 32-step loop",
+   "slots": [
+    {
+     "file": "firmware/setlist/Perc/s0.hex",
+     "kb": 53,
+     "sha256": "ab5d5ee7527d5b5a83021c4f922b8498c617a37c040ac991af9c5749933ebf0b"
+    },
+    {
+     "file": "firmware/setlist/Perc/s1.hex",
+     "kb": 52,
+     "sha256": "d981fe6fc5218867f22b000313edeb9d2d8768c674a24d8295e82082f29ba5ea"
+    },
+    {
+     "file": "firmware/setlist/Perc/s2.hex",
+     "kb": 52,
+     "sha256": "00aba2a6657d48983ab7e8ce6c5c811538625dcd8a38277253ea6ed12dde151f"
+    },
+    {
+     "file": "firmware/setlist/Perc/s3.hex",
+     "kb": 52,
+     "sha256": "7fb4a5f7477d362e6c03584dfd1c97ad9d117d083e49e953fa82b55652724ee4"
+    }
+   ]
+  },
+  {
+   "id": "Ping",
+   "name": "Ping_OS",
+   "dir": "PingOS_40",
+   "version": "",
+   "desc": "cross-ping resonators · rhythmic memory · tonal decay",
+   "descEn": "cross-ping resonators · rhythmic memory · tonal decay",
+   "slots": [
+    {
+     "file": "firmware/setlist/Ping/s0.hex",
+     "kb": 54,
+     "sha256": "bc8a433e56d99a3cfa75c6a6665d688b877e3c46c0a6f1c440f3d702803f3179"
+    },
+    {
+     "file": "firmware/setlist/Ping/s1.hex",
+     "kb": 54,
+     "sha256": "721d9b147bfb817ada097afb2cbe189139cb9d69df8587321a7c8b16ae2d51fc"
+    },
+    {
+     "file": "firmware/setlist/Ping/s2.hex",
+     "kb": 54,
+     "sha256": "bcf5dcab3e212b9785ebffa998681e58ac7e39e8913d9ee51cdde621c6528179"
+    },
+    {
+     "file": "firmware/setlist/Ping/s3.hex",
+     "kb": 54,
+     "sha256": "3a2dedb78f03a19b04797c8a9e7a6075aa1bc6dad71043c42da57d9a0bd4026c"
+    }
+   ]
+  },
+  {
+   "id": "DriftScape",
+   "name": "DriftScape_OS",
+   "dir": "DriftScapeOS_40",
+   "version": "",
+   "desc": "wandering body · twin chimes · tonal reflections",
+   "descEn": "wandering body · twin chimes · tonal reflections",
+   "slots": [
+    {
+     "file": "firmware/setlist/DriftScape/s0.hex",
+     "kb": 97,
+     "sha256": "d5aeff88765887851abd7267bb0a4964405a5d255e67cd6ac517755f0f3a32a6"
+    },
+    {
+     "file": "firmware/setlist/DriftScape/s1.hex",
+     "kb": 97,
+     "sha256": "aa9e3cb29c0ecfdbb9e1938808c7eef81d80737557a0e5a20744287f7a79006f"
+    },
+    {
+     "file": "firmware/setlist/DriftScape/s2.hex",
+     "kb": 97,
+     "sha256": "62d3ee3c60f85ebe53f2323ba43e903928904bb8b13944218690394ea2f9f92e"
+    },
+    {
+     "file": "firmware/setlist/DriftScape/s3.hex",
+     "kb": 97,
+     "sha256": "ecd6955b2679fd6a9527ce2ea1be7de8e271c9d33938509d527d4ff152bb2517"
+    }
+   ]
+  },
+  {
+   "id": "Donut",
+   "name": "Donut_OS",
+   "dir": "Donut_OS",
+   "version": "",
+   "desc": "Donut OS",
+   "descEn": "Donut OS",
+   "slots": [
+    {
+     "file": "firmware/setlist/Donut/s0.hex",
+     "kb": 87,
+     "sha256": "e1f29c17eacee14f263a569838f4cc2e3d9ce7a5904881b7163911760a0ac776"
+    },
+    {
+     "file": "firmware/setlist/Donut/s1.hex",
+     "kb": 87,
+     "sha256": "c7cf8537e322d2c059504da3c941a1e9aee8109dbd22ad0bc265a2d4b4c3de3c"
+    },
+    {
+     "file": "firmware/setlist/Donut/s2.hex",
+     "kb": 87,
+     "sha256": "82a4cdaf1e9b55417e1170f4856a187f079c0c41d9b085feb5e47cf5b9634e48"
+    },
+    {
+     "file": "firmware/setlist/Donut/s3.hex",
+     "kb": 87,
+     "sha256": "939c27ba7aff28e8b6b226e1dd86b3419298c0061939ed93136f85040caba9dd"
+    }
+   ]
+  },
+  {
+   "id": "Flux",
+   "name": "Flux_OS",
+   "dir": "FluxOS_40",
+   "version": "",
+   "desc": "four-operator FM · mutable rhythm · timbre memory",
+   "descEn": "four-operator FM · mutable rhythm · timbre memory",
+   "slots": [
+    {
+     "file": "firmware/setlist/Flux/s0.hex",
+     "kb": 82,
+     "sha256": "a1e74ba079756100097212bb7d8e8b8e8c4a3dd149946af15713cca80796c5b0"
+    },
+    {
+     "file": "firmware/setlist/Flux/s1.hex",
+     "kb": 82,
+     "sha256": "aa1aa107ac4126be45d610cfbe6702ae6c9f9e9c1a7c04eb17ad43c161603e08"
+    },
+    {
+     "file": "firmware/setlist/Flux/s2.hex",
+     "kb": 82,
+     "sha256": "e074c1920e19da2c7d1de5a1db866459fadca037eb3d2ab76d4a721ebf681448"
+    },
+    {
+     "file": "firmware/setlist/Flux/s3.hex",
+     "kb": 82,
+     "sha256": "2af9db1fd1ec9abd939ff06a35169f49b40efb1bf68196e5ace26d6570eaf87f"
+    }
+   ]
+  },
+  {
+   "id": "Gruz",
+   "name": "Gruz_OS",
+   "dir": "GruzOS_40",
+   "version": "0.10",
+   "desc": "PM bass · resonant noise · damaged ambience",
+   "descEn": "PM bass · resonant noise · damaged ambience",
+   "slots": [
+    {
+     "file": "firmware/setlist/Gruz/s0.hex",
+     "kb": 51,
+     "sha256": "3d835368564127dea799980467ddb5f417816402e9781ca7c89551f1a45dd247"
+    },
+    {
+     "file": "firmware/setlist/Gruz/s1.hex",
+     "kb": 51,
+     "sha256": "25d83e53dbffe1dc26287ee35453116117823d7dde9a0c4af5be9b07b625c1f4"
+    },
+    {
+     "file": "firmware/setlist/Gruz/s2.hex",
+     "kb": 51,
+     "sha256": "fad9cfab28ec478076a75ba12ae1d4ea73d0835102c23f7a4d3f8b5c8085c0cd"
+    },
+    {
+     "file": "firmware/setlist/Gruz/s3.hex",
+     "kb": 51,
+     "sha256": "656b178410387296ba7dc074ca7cddec7d8d79fe5936c970cbb3fa69673ac7b5"
+    }
+   ]
+  },
+  {
+   "id": "Kac",
+   "name": "Kac_OS",
+   "dir": "KacOS_40",
+   "version": "",
+   "desc": "FM/PM accumulator · Lorenz · step mutation",
+   "descEn": "FM/PM accumulator · Lorenz · step mutation",
+   "slots": [
+    {
+     "file": "firmware/setlist/Kac/s0.hex",
+     "kb": 59,
+     "sha256": "a6ce4fa51b7a650dd36dc016c078adedbcdc265e5a30903350983728a91f62ff"
+    },
+    {
+     "file": "firmware/setlist/Kac/s1.hex",
+     "kb": 59,
+     "sha256": "9ceaae41a46505629e642e32214a852b3448f5a202248f16164af915330e8980"
+    },
+    {
+     "file": "firmware/setlist/Kac/s2.hex",
+     "kb": 59,
+     "sha256": "18245968d830827790ec0e325895f9457913aaaec0c24755d5c1e4b8745d8f7e"
+    },
+    {
+     "file": "firmware/setlist/Kac/s3.hex",
+     "kb": 59,
+     "sha256": "5f4dc7e98c1e677f220cc056c5d01013f8031ef444a36beddc99ee41c524c324"
+    }
+   ]
+  },
+  {
+   "id": "Kac_BASS",
+   "name": "Kac_Bass_OS",
+   "dir": "KacOS_40_BASS",
+   "version": "",
+   "desc": "low-register FM/PM · morphing bass sequencer",
+   "descEn": "low-register FM/PM · morphing bass sequencer",
+   "slots": [
+    {
+     "file": "firmware/setlist/Kac_BASS/s0.hex",
+     "kb": 59,
+     "sha256": "89219f307cce9b3ad4b14dd759c78a8cd3cdd49e77d5464632eec46e964e90cf"
+    },
+    {
+     "file": "firmware/setlist/Kac_BASS/s1.hex",
+     "kb": 59,
+     "sha256": "d8226e18ef699cba8b579f6e16ff865db29d24dc273f1c9e0f1eda27bd568e4e"
+    },
+    {
+     "file": "firmware/setlist/Kac_BASS/s2.hex",
+     "kb": 59,
+     "sha256": "b1be38318056acb09068d400cc5610cf203176c49b85aa2da41a60b295323802"
+    },
+    {
+     "file": "firmware/setlist/Kac_BASS/s3.hex",
+     "kb": 59,
+     "sha256": "18f023a1e3243e6becc7e5304f3bf7c5cecbb4ca275f77067123c45e41166794"
+    }
+   ]
+  },
+  {
+   "id": "Mult",
+   "name": "Mult_OS",
+   "dir": "MultOS_40",
+   "version": "",
+   "desc": "multi-engine walk / mutation system",
+   "descEn": "multi-engine walk / mutation system",
+   "slots": [
+    {
+     "file": "firmware/setlist/Mult/s0.hex",
+     "kb": 66,
+     "sha256": "0282568b75241e6a2323a948e46c95eb9b89a0b9c1cc85b931b1a83ce8b04707"
+    },
+    {
+     "file": "firmware/setlist/Mult/s1.hex",
+     "kb": 66,
+     "sha256": "c1b829ea8a1f4bfbe51db16c171361b6ce38bb911bcb70bf47bf6caa5c9a7ed0"
+    },
+    {
+     "file": "firmware/setlist/Mult/s2.hex",
+     "kb": 66,
+     "sha256": "fa038a80e4fb4496cf68c739c951eccd4d61e3e232294e5bbbc34838dcab431c"
+    },
+    {
+     "file": "firmware/setlist/Mult/s3.hex",
+     "kb": 66,
+     "sha256": "911437e7c1002bfd75580449bc5f536d7ea9cc5d9b725b7038530cc6ae5f1d57"
+    }
+   ]
+  },
+  {
+   "id": "NonLin",
+   "name": "NonLin_OS",
+   "dir": "NonLinOS_40",
+   "version": "",
+   "desc": "nonlinear chaos / folded attractors",
+   "descEn": "nonlinear chaos / folded attractors",
+   "slots": [
+    {
+     "file": "firmware/setlist/NonLin/s0.hex",
+     "kb": 90,
+     "sha256": "dba789261dc97d33a1842b8c63053c828fd35195b976f295369929d4cd6d5497"
+    },
+    {
+     "file": "firmware/setlist/NonLin/s1.hex",
+     "kb": 90,
+     "sha256": "c5acc101919a0bee55fc619e68700aaf162f73c604e124aa92aa520a45cd3792"
+    },
+    {
+     "file": "firmware/setlist/NonLin/s2.hex",
+     "kb": 90,
+     "sha256": "9a1424cb7be0ac8694dacc6327d587c4ce4ad2ac5886ea44e57fbff6f78ccdb3"
+    },
+    {
+     "file": "firmware/setlist/NonLin/s3.hex",
+     "kb": 90,
+     "sha256": "cdd723168014405445a76c4fe370aa1a509c128f9a9607ff7e21bb4cd2cae3a5"
+    }
+   ]
+  },
+  {
+   "id": "Pull",
+   "name": "Pull_OS",
+   "dir": "Pull_OS_40",
+   "version": "",
+   "desc": "granular pulses · formant memory · phase-space motion",
+   "descEn": "granular pulses · formant memory · phase-space motion",
+   "slots": [
+    {
+     "file": "firmware/setlist/Pull/s0.hex",
+     "kb": 59,
+     "sha256": "70d26383da6c2f93a2eb387d178b7530cdfa1014740fadf2f58384e78aafb9f0"
+    },
+    {
+     "file": "firmware/setlist/Pull/s1.hex",
+     "kb": 59,
+     "sha256": "3a47fa4af978b890f80483e535d9d94af9170188ed8d5afe696233db3534b4d6"
+    },
+    {
+     "file": "firmware/setlist/Pull/s2.hex",
+     "kb": 59,
+     "sha256": "82a8197e1003eb8643a67343667b907be5deecdc1e683e4e99fb642cb90bcc93"
+    },
+    {
+     "file": "firmware/setlist/Pull/s3.hex",
+     "kb": 59,
+     "sha256": "93dd79bd22523e6e1e3c214feb7ea4b542dc251d206d1939c95ad6cb6ae45841"
+    }
+   ]
+  },
+  {
+   "id": "RELAB",
+   "name": "RELAB_OS",
+   "dir": "RELAB_OS_40",
+   "version": "",
+   "desc": "self-erasing pulse · industrial mechanisms · micro-edits",
+   "descEn": "self-erasing pulse · industrial mechanisms · micro-edits",
+   "slots": [
+    {
+     "file": "firmware/setlist/RELAB/s0.hex",
+     "kb": 57,
+     "sha256": "11324a5bbc21978257feafc9c62a251e8fc4c14f9eca747f49024a05fc4962f2"
+    },
+    {
+     "file": "firmware/setlist/RELAB/s1.hex",
+     "kb": 57,
+     "sha256": "17e885261f629f4032fa462aec6fd4274cb77fdb70c0642fa87b30af762dd512"
+    },
+    {
+     "file": "firmware/setlist/RELAB/s2.hex",
+     "kb": 57,
+     "sha256": "39b1a8f2ac35e32cae6af5afbb2e85c837c3eec0bdb880c8e945e320a6aca5f2"
+    },
+    {
+     "file": "firmware/setlist/RELAB/s3.hex",
+     "kb": 57,
+     "sha256": "a1f63ea934c19a61485dd6ee84bbb6bddcb593d70ee348a228f0970132562a07"
+    }
+   ]
+  },
+  {
+   "id": "Run",
+   "name": "Run_OS",
+   "dir": "RunOS_40",
+   "version": "",
+   "desc": "raw rungler / nonlinear touch voices",
+   "descEn": "raw rungler / nonlinear touch voices",
+   "slots": [
+    {
+     "file": "firmware/setlist/Run/s0.hex",
+     "kb": 86,
+     "sha256": "0f50a3b4d75164db903c01a7aeb99a200efdefe657deaf98cecab011a02ec7c5"
+    },
+    {
+     "file": "firmware/setlist/Run/s1.hex",
+     "kb": 86,
+     "sha256": "147ce3e3076e42d74c19dbe63a119cb158f9923c6ef96cbc5c0235c6682d4b1d"
+    },
+    {
+     "file": "firmware/setlist/Run/s2.hex",
+     "kb": 86,
+     "sha256": "7c34ff88d889eb11afa080ff2613343547d2c23a8a8c2f67dc70455ee0bf0ef6"
+    },
+    {
+     "file": "firmware/setlist/Run/s3.hex",
+     "kb": 86,
+     "sha256": "106963c641a08450ff2393113cc24824e174f8e39e58e455b4fca6568124fe1a"
+    }
+   ]
+  },
+  {
+   "id": "Imp",
+   "name": "Imp_OS",
+   "dir": "ImpOS_40",
+   "version": "",
+   "desc": "Imp OS",
+   "descEn": "Imp OS",
+   "slots": [
+    {
+     "file": "firmware/setlist/Imp/s0.hex",
+     "kb": 49,
+     "sha256": "d2f563fb195ce563dd64525868ca6dff4f3570933fee9ab130f224c004139d95"
+    },
+    {
+     "file": "firmware/setlist/Imp/s1.hex",
+     "kb": 49,
+     "sha256": "d4e72cd1d5e802c47bf91efa25115e8830a335365c293dde66db98d98b865fee"
+    },
+    {
+     "file": "firmware/setlist/Imp/s2.hex",
+     "kb": 49,
+     "sha256": "5d8667ba9b853a0ed06da7fbefddfb854acfe3e434a13f9d53eb8256470e3079"
+    },
+    {
+     "file": "firmware/setlist/Imp/s3.hex",
+     "kb": 49,
+     "sha256": "1a57f104adaf4610b5c7e07c486b86f47cff114f00595e3a41a3254e60114ad1"
+    }
+   ]
+  }
+ ]
+}

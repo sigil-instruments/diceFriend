@@ -1,8 +1,8 @@
-# diceFriend - English Quick Start cards
+# English Quick Start cards
 
-27 individual A4 cards in publication order, numbered 01-27. Drzazga_OS is the newest addition. Print portrait at 100%.
+29 one-page A4 cards in publication order.
 
-[Open the card index](index.html) · [Print the complete collection](diceFriend_All_OS_Quick_Start_A4_EN.pdf)
+[Complete 29-page collection](diceFriend_All_OS_Quick_Start_A4_EN.pdf)
 
 1. [Modal_OS](ModalOS_Quick_Start_A4_EN.pdf)
 2. [Run_OS](RunOS_Quick_Start_A4_EN.pdf)
@@ -31,3 +31,5 @@
 25. [Gruz_OS](GruzOS_Quick_Start_A4_EN.pdf)
 26. [SixOp_OS](SixOp_OS_Quick_Start_A4_EN.pdf)
 27. [Drzazga_OS](Drzazga_OS_Quick_Start_A4_EN.pdf)
+28. [Lancuh_OS](Lancuh_OS_Quick_Start_A4_EN.pdf)
+29. [Imp_OS](ImpOS_Quick_Start_A4_EN.pdf)
